@@ -18,7 +18,7 @@ cc = "1.2"
 singulink-steno = { path = ".." }
 criterion = { version = "0.8.2", default-features = false, features = ["cargo_bench_support"] }
 # The compressors of the native comparison, through the C reference libraries.
-zstd = "0.13"
+zstd = "0.14"
 brotlic = "0.8"
 lz4 = "1.28"
 flate2 = { version = "1.1", default-features = false, features = ["zlib"] }
