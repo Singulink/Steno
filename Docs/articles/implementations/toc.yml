@@ -1,0 +1,28 @@
+- name: .NET
+  items:
+  - name: Overview
+    href: dotnet.md
+
+  - name: Getting Started with .NET
+    href: dotnet-getting-started.md
+
+  - name: Encoding in Pieces with .NET
+    href: dotnet-encoding-in-pieces.md
+
+- name: Rust
+  href: rust.md
+
+- name: C
+  href: c.md
+
+- name: Go
+  href: go.md
+
+- name: Java
+  href: java.md
+
+- name: TypeScript
+  href: typescript.md
+
+- name: Python
+  href: python.md

@@ -1,0 +1,21 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="FORMAT.md" />
+    <File Path="global.json" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/Source/">
+    <Project Path="Source/Singulink.Steno/Singulink.Steno.csproj" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="Tests/Singulink.Steno.Tests/Singulink.Steno.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Benchmarks/">
+    <Project Path="Benchmarks/Singulink.Steno.Benchmarks/Singulink.Steno.Benchmarks.csproj" />
+    <Project Path="Benchmarks/Singulink.Steno.Benchmarks.Speed/Singulink.Steno.Benchmarks.Speed.csproj" />
+    <Project Path="Benchmarks/Singulink.Steno.Benchmarks.Tests/Singulink.Steno.Benchmarks.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,73 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "singulink-steno"
+version = "0.1.0"
+description = "The Python reference implementation of the Steno Encoding, a compact encoding of Unicode text whose bytes sort like the text."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE.md"]
+authors = [{ name = "Singulink" }]
+keywords = ["steno", "encoding", "codec", "unicode", "text", "compression", "sortable", "order-preserving", "key-value", "database"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Database",
+    "Topic :: Text Processing",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[dependency-groups]
+# Development tools: pip install --group dev (pip 25.1 or later).
+dev = ["pytest>=8", "hypothesis>=6", "ruff>=0.8", "mypy>=1.13", "build>=1.2"]
+# The benchmark and the libraries it compares with. Never dependencies of the package.
+bench = ["pyperf>=2.8", "zstandard>=0.23", "brotli>=1.1", "lz4>=4.3"]
+
+[project.urls]
+Homepage = "https://github.com/Singulink/Singulink.Steno/tree/main/Ports/python#readme"
+Documentation = "https://www.singulink.com/Docs/Steno/articles/implementations/python.html"
+Specification = "https://github.com/Singulink/Singulink.Steno/blob/main/FORMAT.md"
+Issues = "https://github.com/Singulink/Singulink.Steno/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/singulink_steno"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "README.md", "LICENSE.md", "pyproject.toml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "src/singulink_steno", "README.md"]
+addopts = "--doctest-modules --doctest-glob=README.md -p no:cacheprovider -m 'not slow'"
+markers = ["slow: the deterministic sweeps (about a minute); run them with -m slow"]
+doctest_optionflags = ["NORMALIZE_WHITESPACE", "ELLIPSIS"]
+filterwarnings = ['ignore:codecs.open.. is deprecated:DeprecationWarning']
+
+[tool.ruff]
+line-length = 140
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "A", "SIM", "RUF", "D", "PIE", "PT", "RET", "TID"]
+# RUF001-RUF003: the text in the tests and the docs is multilingual on purpose. E501: the formatter sets the width of code; a few comments
+# and docstrings run to 141 or so.
+ignore = ["D105", "D107", "D203", "D213", "UP006", "UP007", "UP031", "UP035", "UP045", "RUF001", "RUF002", "RUF003", "E501"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D", "PT011", "PT012", "PT017", "PT018"]
+"bench/**" = ["D"]
+
+[tool.mypy]
+strict = true
+python_version = "3.9"
+files = ["src"]

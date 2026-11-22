@@ -1,0 +1,86 @@
+[
+  {
+    "Kind": "document",
+    "Operation": "Copy of the bytes (Span.CopyTo)",
+    "Throughput": 226817.3,
+    "Values": 1,
+    "Chars": 10631
+  },
+  {
+    "Kind": "document",
+    "Operation": "Ascii.IsValid (.NET, on the UTF-8 bytes)",
+    "Throughput": 307290.8,
+    "Values": 1,
+    "Chars": 10631
+  },
+  {
+    "Kind": "document",
+    "Operation": "StenoEncoding.IsAsciiText",
+    "Throughput": 22339.3,
+    "Values": 1,
+    "Chars": 10631
+  },
+  {
+    "Kind": "document",
+    "Operation": "Steno to UTF-8 (GetUtf8Bytes)",
+    "Throughput": 14779.8,
+    "Values": 1,
+    "Chars": 10631
+  },
+  {
+    "Kind": "document",
+    "Operation": "UTF-8 to Steno (GetBytesFromUtf8)",
+    "Throughput": 14787.1,
+    "Values": 1,
+    "Chars": 10631
+  },
+  {
+    "Kind": "document",
+    "Operation": "Steno to UTF-16 (GetChars), for comparison",
+    "Throughput": 6291.4,
+    "Values": 1,
+    "Chars": 10631
+  },
+  {
+    "Kind": "16-char strings",
+    "Operation": "Copy of the bytes (Span.CopyTo)",
+    "Throughput": 4000,
+    "Values": 701,
+    "Chars": 10345
+  },
+  {
+    "Kind": "16-char strings",
+    "Operation": "Ascii.IsValid (.NET, on the UTF-8 bytes)",
+    "Throughput": 4612.7,
+    "Values": 701,
+    "Chars": 10345
+  },
+  {
+    "Kind": "16-char strings",
+    "Operation": "StenoEncoding.IsAsciiText",
+    "Throughput": 3292.9,
+    "Values": 701,
+    "Chars": 10345
+  },
+  {
+    "Kind": "16-char strings",
+    "Operation": "Steno to UTF-8 (GetUtf8Bytes)",
+    "Throughput": 1990.2,
+    "Values": 701,
+    "Chars": 10345
+  },
+  {
+    "Kind": "16-char strings",
+    "Operation": "UTF-8 to Steno (GetBytesFromUtf8)",
+    "Throughput": 1947.5,
+    "Values": 701,
+    "Chars": 10345
+  },
+  {
+    "Kind": "16-char strings",
+    "Operation": "Steno to UTF-16 (GetChars), for comparison",
+    "Throughput": 584.1,
+    "Values": 701,
+    "Chars": 10345
+  }
+]

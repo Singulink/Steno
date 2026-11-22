@@ -1,0 +1,7 @@
+[
+  {"id": 1001, "sku": "TEA-GRN-250", "price": 12.50, "currency": "EUR", "name": {"en": "Organic green tea", "de": "Bio-Grüntee", "fr": "Thé vert biologique", "ru": "Органический зелёный чай", "ja": "有機緑茶", "zh": "有机绿茶", "ar": "شاي أخضر عضوي"}},
+  {"id": 1002, "sku": "COF-ARB-500", "price": 18.90, "currency": "EUR", "name": {"en": "Arabica coffee beans", "de": "Arabica-Kaffeebohnen", "fr": "Café arabica en grains", "ru": "Кофе арабика в зёрнах", "ja": "アラビカコーヒー豆", "zh": "阿拉比卡咖啡豆", "ar": "حبوب قهوة أرابيكا"}},
+  {"id": 1003, "sku": "HNY-WLD-340", "price": 9.75, "currency": "EUR", "name": {"en": "Wildflower honey", "de": "Wildblütenhonig", "fr": "Miel de fleurs sauvages", "ru": "Мёд из полевых цветов", "ja": "野の花のはちみつ", "zh": "野花蜂蜜", "ar": "عسل الزهور البرية"}},
+  {"id": 1004, "sku": "OIL-OLV-750", "price": 22.00, "currency": "EUR", "name": {"en": "Extra virgin olive oil", "de": "Natives Olivenöl extra", "fr": "Huile d’olive vierge extra", "ru": "Оливковое масло первого отжима", "ja": "エクストラバージンオリーブオイル", "zh": "特级初榨橄榄油", "ar": "زيت زيتون بكر ممتاز"}},
+  {"id": 1005, "sku": "CHO-DRK-100", "price": 4.20, "currency": "EUR", "name": {"en": "Dark chocolate 70%", "de": "Zartbitterschokolade 70 %", "fr": "Chocolat noir 70 %", "ru": "Тёмный шоколад 70 %", "ja": "ダークチョコレート70%", "zh": "70%黑巧克力", "ar": "شوكولاتة داكنة ٧٠٪"}}
+]

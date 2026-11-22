@@ -1,0 +1,417 @@
+name: build and test
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+# All projects target net10.0, and global.json pins the 10.0.100 SDK with latestFeature roll-forward, so the 10.0.x SDK is all that is needed.
+jobs:
+  debug-windows:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v7
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v6
+      with:
+        dotnet-version: |
+          10.0.x
+    - name: Clean
+      run: dotnet clean --configuration Debug && dotnet nuget locals all --clear
+    - name: Install dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --configuration Debug --no-restore
+    - name: Test
+      run: dotnet test --configuration Debug --no-build
+
+  release-windows:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v7
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v6
+      with:
+        dotnet-version: |
+          10.0.x
+    - name: Clean
+      run: dotnet clean --configuration Release && dotnet nuget locals all --clear
+    - name: Install dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+    - name: Test
+      run: dotnet test --configuration Release --no-build
+    # The same tests again on the paths that hardware without the usual instruction sets takes: no vector instructions at all, and vectors
+    # without the byte shuffle. A normal run never reaches them on this runner.
+    - name: Test without hardware intrinsics
+      run: dotnet test --configuration Release --no-build
+      env:
+        DOTNET_EnableHWIntrinsic: 0
+    - name: Test without SSSE3
+      run: dotnet test --configuration Release --no-build
+      env:
+        DOTNET_EnableSSSE3: 0
+
+  # The library has a vector code path for ARM64 (AdvSimd, in the byte shuffle of StenoCodec and the code that depends on CanShuffle) that x64 machines never
+  # take. This job is its only coverage: the tests run on an ARM64 runner, where that path is the one in use. It also checks that the solution builds on
+  # Linux; the benchmark tool loads Windows' icu.dll only when it runs, so it builds here too.
+  release-linux-arm64:
+
+    runs-on: ubuntu-24.04-arm
+
+    steps:
+    - uses: actions/checkout@v7
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v6
+      with:
+        dotnet-version: |
+          10.0.x
+    - name: Clean
+      run: dotnet clean --configuration Release && dotnet nuget locals all --clear
+    - name: Install dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+    - name: Test
+      run: dotnet test --configuration Release --no-build
+
+  # The other reference implementations, under Ports. Each one builds, lints and tests on Linux, and its tests read the published vector file
+  # from TestVectors.
+  rust:
+
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: Ports/rust
+
+    env:
+      CARGO_TERM_COLOR: always
+      RUSTDOCFLAGS: -D warnings
+
+    steps:
+    - uses: actions/checkout@v7
+    - name: Setup Rust
+      uses: dtolnay/rust-toolchain@stable
+      with:
+        components: rustfmt, clippy
+    - name: Check formatting
+      run: cargo fmt --all --check
+    - name: Lint every feature set
+      run: |
+        cargo clippy --workspace --all-targets -- -D warnings
+        cargo clippy -p singulink-steno --all-targets --no-default-features -- -D warnings
+        cargo clippy -p singulink-steno --all-targets --no-default-features --features std -- -D warnings
+        cargo clippy -p singulink-steno --all-targets --no-default-features --features simd -- -D warnings
+    # The vector code uses SSSE3, which is detected at run time.
+    - name: Test with the vector code
+      run: cargo test --workspace
+    - name: Test with the vector code turned off
+      run: cargo test --workspace
+      env:
+        STENO_SIMD: "0"
+    - name: Test without the simd feature
+      run: cargo test -p singulink-steno --no-default-features --features std
+    # Without std there is no run-time detection, so the vector code comes from the compile-time target features.
+    - name: Test without the std feature
+      run: cargo test -p singulink-steno --no-default-features --features simd
+      env:
+        RUSTFLAGS: -C target-feature=+ssse3
+    - name: Build the documentation
+      run: cargo doc --workspace --no-deps
+    # The C interface: a C program that includes steno.h and links the library.
+    - name: Build and run the C test program
+      run: |
+        cargo build --release -p singulink-steno-capi
+        cc -std=c99 -Wall -Wextra -Werror -Icapi/include capi/tests/c/test.c -Ltarget/release -lsteno -Wl,-rpath,"$PWD/target/release" -o target/steno-c-test
+        ./target/steno-c-test
+    - name: Build with the oldest supported Rust version
+      run: |
+        rustup toolchain install 1.87 --profile minimal
+        cargo +1.87 build --workspace
+
+  # The Rust implementation has vector code for ARM64 (NEON) that x64 machines never run. This job is its only coverage.
+  rust-arm64:
+
+    runs-on: ubuntu-24.04-arm
+
+    defaults:
+      run:
+        working-directory: Ports/rust
+
+    env:
+      CARGO_TERM_COLOR: always
+
+    steps:
+    - uses: actions/checkout@v7
+    - name: Setup Rust
+      uses: dtolnay/rust-toolchain@stable
+      with:
+        components: clippy
+    - name: Lint
+      run: |
+        cargo clippy --workspace --all-targets -- -D warnings
+        cargo clippy -p singulink-steno --all-targets --no-default-features --features simd -- -D warnings
+    - name: Test with the vector code
+      run: cargo test --workspace
+    - name: Test with the vector code turned off
+      run: cargo test --workspace
+      env:
+        STENO_SIMD: "0"
+    - name: Test without the std feature
+      run: cargo test -p singulink-steno --no-default-features --features simd
+    - name: Build and run the C test program
+      run: |
+        cargo build --release -p singulink-steno-capi
+        cc -std=c99 -Wall -Wextra -Werror -Icapi/include capi/tests/c/test.c -Ltarget/release -lsteno -Wl,-rpath,"$PWD/target/release" -o target/steno-c-test
+        ./target/steno-c-test
+
+  # Miri checks the unsafe vector code of the Rust implementation for undefined behaviour, and runs the scalar code as a big-endian target
+  # would: big-endian ARM64 must not take the NEON code, which assumes little-endian lanes.
+  rust-miri:
+
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: Ports/rust
+
+    env:
+      CARGO_TERM_COLOR: always
+
+    steps:
+    - uses: actions/checkout@v7
+    - name: Setup Rust nightly with Miri
+      uses: dtolnay/rust-toolchain@nightly
+      with:
+        components: miri, rust-src
+    - name: Run the unsafe module and the small kernel tests on x86-64 with SSSE3
+      run: cargo miri test -p singulink-steno --lib simd && cargo miri test -p singulink-steno --test miri
+      env:
+        RUSTFLAGS: -C target-feature=+ssse3
+    - name: Run the small kernel tests as big-endian ARM64
+      run: cargo miri test -p singulink-steno --target aarch64_be-unknown-linux-gnu --test miri
+
+  # The C reference implementation in Ports/c: the SSE2 code on x86-64, with the sanitizers, fuzzing, a 32-bit build and CMake.
+  c:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        cc: [ gcc, clang ]
+
+    defaults:
+      run:
+        working-directory: Ports/c
+
+    steps:
+    - uses: actions/checkout@v7
+    - name: Install the 32-bit libraries
+      run: sudo apt-get update && sudo apt-get install -y gcc-multilib
+    - name: Build with every warning as an error
+      run: |
+        make CC=${{ matrix.cc }} CFLAGS="-O2 -Werror" build/libsteno.a
+        make CC=${{ matrix.cc }} CFLAGS="-O2 -Werror" TEST_FLAGS=-DSTENO_NO_SIMD BUILD=build-werror-scalar build-werror-scalar/libsteno.a
+        printf '#include "steno.h"\nint main() { steno_encoder e; steno_encoder_init(&e); return 0; }\n' > /tmp/header.cpp
+        ${{ matrix.cc == 'gcc' && 'g++' || 'clang++' }} -std=c++11 -Wall -Wextra -Wpedantic -Werror -I. -fsyntax-only /tmp/header.cpp
+    - name: Test
+      run: make CC=${{ matrix.cc }} test
+    - name: Test the scalar code
+      run: make CC=${{ matrix.cc }} test-scalar
+    - name: Test the shared library with hidden visibility
+      run: make CC=${{ matrix.cc }} test-shared
+    - name: Test under AddressSanitizer and UndefinedBehaviorSanitizer
+      run: make CC=${{ matrix.cc }} sanitize
+    - name: Test the threads under ThreadSanitizer
+      if: matrix.cc == 'clang'
+      run: clang -std=c99 -O1 -g -fsanitize=thread tests/test_threads.c steno.c -o build/tsan_threads -pthread && build/tsan_threads 16 300
+    - name: Fuzz for 30 seconds per harness
+      if: matrix.cc == 'clang'
+      run: make FUZZ_TIME=30 fuzz
+    - name: Test a 32-bit build
+      if: matrix.cc == 'gcc'
+      run: |
+        make CC="gcc -m32" BUILD=build-m32 test
+        make CC="gcc -m32" BUILD=build-m32 test-scalar
+    - name: Check every layout against the oracle, every 3-byte string and the full sweep
+      if: matrix.cc == 'gcc'
+      run: make CC=gcc THREADS=4 exhaustive
+    - name: Build, test and install with CMake
+      run: |
+        cmake -S . -B build-cmake -DCMAKE_C_COMPILER=${{ matrix.cc }} -DCMAKE_BUILD_TYPE=Release
+        cmake --build build-cmake -j 2
+        ctest --test-dir build-cmake --output-on-failure
+        cmake --install build-cmake --prefix /tmp/steno-install
+        test -f /tmp/steno-install/include/steno.h
+
+  # The C implementation has NEON code that x64 machines never run. This job is its only coverage.
+  c-arm64:
+
+    runs-on: ubuntu-24.04-arm
+
+    strategy:
+      fail-fast: false
+      matrix:
+        cc: [ gcc, clang ]
+
+    defaults:
+      run:
+        working-directory: Ports/c
+
+    steps:
+    - uses: actions/checkout@v7
+    - name: Check that the NEON code is compiled
+      run: ${{ matrix.cc }} -std=c99 -O2 -dM -E steno.c | grep -q 'define STENO_NEON'
+    - name: Build with every warning as an error
+      run: make CC=${{ matrix.cc }} CFLAGS="-O2 -Werror" build/libsteno.a
+    - name: Test
+      run: make CC=${{ matrix.cc }} test
+    - name: Test the scalar code
+      run: make CC=${{ matrix.cc }} test-scalar
+    - name: Test the shared library
+      run: make CC=${{ matrix.cc }} test-shared
+    - name: Test under AddressSanitizer and UndefinedBehaviorSanitizer
+      run: make CC=${{ matrix.cc }} sanitize
+
+  go:
+
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: Ports/go
+
+    steps:
+    - uses: actions/checkout@v7
+    - name: Setup Go
+      uses: actions/setup-go@v7
+      with:
+        go-version: stable
+        cache-dependency-path: Ports/go/go.mod
+    - name: Check formatting
+      run: |
+        unformatted="$(gofmt -l .)"
+        if [ -n "$unformatted" ]; then
+          echo "These files are not formatted with gofmt:"
+          echo "$unformatted"
+          exit 1
+        fi
+    - name: Vet
+      run: go vet ./...
+    - name: Build with the oldest supported Go version
+      run: GOTOOLCHAIN=go1.22.0 go build ./...
+    - name: Test with the race detector
+      run: go test -race -count=1 ./...
+    - name: Fuzz briefly
+      run: |
+        go test -run '^$' -fuzz '^FuzzDecode$' -fuzztime 20s -fuzzminimizetime 5s .
+        go test -run '^$' -fuzz '^FuzzRoundTrip$' -fuzztime 20s -fuzzminimizetime 5s .
+
+  java:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        java-version: [ 17, 21 ]
+
+    defaults:
+      run:
+        working-directory: Ports/java
+
+    steps:
+    - uses: actions/checkout@v7
+    - name: Setup Java
+      uses: actions/setup-java@v6
+      with:
+        distribution: temurin
+        java-version: ${{ matrix.java-version }}
+        cache: maven
+        cache-dependency-path: Ports/java/pom.xml
+    # Compiles with -Xlint:all as errors, runs the tests and builds the Javadoc with doclint as errors.
+    - name: Build, lint and test
+      run: ./mvnw -B verify
+
+  typescript:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: [ 20, 22 ]
+
+    defaults:
+      run:
+        working-directory: Ports/typescript
+
+    steps:
+    - uses: actions/checkout@v7
+    - name: Setup Node.js
+      uses: actions/setup-node@v7
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: npm
+        cache-dependency-path: Ports/typescript/package-lock.json
+    - name: Install dependencies
+      run: npm ci
+    - name: Build
+      run: npm run build
+    - name: Test
+      run: npm test
+    # The README examples and a small consumer program must compile under strict settings, with the DOM library and with the Node types.
+    - name: Check the type declarations
+      run: npm run test:types
+    - name: Check the package contents
+      run: npm pack --dry-run
+
+  python:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [ "3.9", "3.14" ]
+
+    defaults:
+      run:
+        working-directory: Ports/python
+
+    steps:
+    - uses: actions/checkout@v7
+    - name: Setup Python
+      uses: actions/setup-python@v7
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install the package and the development tools
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install -e . --group dev
+    - name: Lint
+      run: |
+        ruff check .
+        ruff format --check .
+    - name: Type-check
+      run: mypy
+    - name: Test
+      run: pytest
+    # The deterministic sweeps, and the fuzz and text file tests with a longer budget than the default run has.
+    - name: Run the slow tests
+      run: pytest -m slow && STENO_FUZZ_SECONDS=20 pytest tests/test_fuzz.py tests/test_textfiles.py
+    - name: Build the wheel and the sdist
+      run: python -m build
+    # The built wheel must work on its own, away from the source tree.
+    - name: Install the wheel into a clean virtual environment
+      run: |
+        python -m venv /tmp/clean
+        /tmp/clean/bin/pip install dist/*.whl
+        cd /tmp && /tmp/clean/bin/python -c "import singulink_steno; assert 'abc'.encode('x-steno') == b'HIJ'; print(singulink_steno.backend)"

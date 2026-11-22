@@ -1,0 +1,10 @@
+Einstein’s relation E = mc² links energy and mass; the photon energy is E = hν = ħω.
+For all ε > 0 there exists δ > 0 such that |x − a| < δ ⇒ |f(x) − f(a)| < ε.
+The sum ∑ᵢ xᵢ² ≤ (∑ᵢ |xᵢ|)² holds for any x ∈ ℝⁿ, and ∫₀^∞ e^(−x²) dx = √π / 2.
+Let α, β ∈ ℂ with α ≠ β; then the roots are λ₁ = α + β and λ₂ = α − β.
+Water boils at 100 °C (212 °F) at 1 atm ≈ 101.3 kPa; the sample was 25 µm ± 0.5 µm thick.
+Resistance: 4.7 kΩ ± 5 %, wavelength λ = 632.8 nm, frequency ≈ 4.74 × 10¹⁴ Hz.
+A → B ⇔ ¬A ∨ B, and A ∧ (B ∨ C) ≡ (A ∧ B) ∨ (A ∧ C).
+The reaction 2 H₂ + O₂ → 2 H₂O releases ΔH = −572 kJ/mol.
+π ≈ 3.14159, e ≈ 2.71828, φ = (1 + √5)/2 ≈ 1.618, and ∞ is not a number.
+Angle θ = 45° ⇒ sin θ = cos θ = √2/2; ∠ABC ≅ ∠DEF.

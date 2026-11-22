@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <TieredPGO>true</TieredPGO>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="K4os.Compression.LZ4" />
+    <PackageReference Include="ZstdSharp.Port" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Source\Singulink.Steno\Singulink.Steno.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Singulink.Steno.Benchmarks.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\Tests\Singulink.Steno.Tests\SampleTexts.cs" Link="SampleTexts.cs" />
+    <Compile Include="..\..\Tests\Singulink.Steno.Tests\RandomText.cs" Link="RandomText.cs" />
+    <None Include="Corpus\**\*.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="speakers.tsv" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
