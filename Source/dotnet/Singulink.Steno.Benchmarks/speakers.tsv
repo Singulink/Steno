@@ -1,0 +1,41 @@
+# Total speakers (first and second language), in millions, of the languages of the benchmark corpora that the source lists.
+#
+# Source: Wikipedia, "List of languages by total number of speakers", table "Most spoken languages, Ethnologue, 2026" (figures from
+# Ethnologue, 2026 edition). URL: https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers
+# Read on 2026-11-21. The table lists only languages with 50 million or more total speakers, so the smaller languages of the corpora are not
+# in it and are left out of the speaker-weighted figures. The figures are approximate: L2 counts overlap between languages.
+#
+# Columns: the language as the benchmark data names it <tab> the total in millions <tab> the entry of the source.
+# Mapping notes:
+# - Chinese (the Wikipedia corpus) and Chinese (Simplified) and Chinese (Traditional) (the UDHR corpus) are Mandarin text: "Mandarin Chinese".
+# - Arabic is Modern Standard Arabic text: "Modern Standard Arabic".
+# - Persian is "Iranian Persian"; German is "Standard German".
+# - Punjabi is left out: the corpora have it in Gurmukhi (Eastern Punjabi), and the source lists only Western Punjabi.
+
+English	1493	English
+Chinese	1183	Mandarin Chinese
+Chinese (Simplified)	1183	Mandarin Chinese
+Chinese (Traditional)	1183	Mandarin Chinese
+Hindi	611	Hindi
+Spanish	561	Spanish
+Arabic	335	Modern Standard Arabic
+French	334	French
+Bengali	274	Bengali
+Portuguese	269	Portuguese
+Indonesian	255	Indonesian
+Urdu	246	Urdu
+Russian	210	Russian
+German	133	Standard German
+Japanese	126	Japanese
+Marathi	99	Marathi
+Vietnamese	97	Vietnamese
+Telugu	96	Telugu
+Turkish	94	Turkish
+Tamil	86	Tamil
+Persian	82	Iranian Persian
+Korean	82	Korean
+Amharic	78	Amharic
+Thai	71	Thai
+Italian	66	Italian
+Gujarati	62	Gujarati
+Kannada	59	Kannada

@@ -1,0 +1,37 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  target-branch: main
+  directory: "/Source/dotnet"
+  schedule:
+    interval: weekly
+- package-ecosystem: "github-actions"
+  directory: "/"
+  schedule:
+    interval: weekly
+  target-branch: main
+- package-ecosystem: cargo
+  target-branch: main
+  directory: "/Source/rust"
+  schedule:
+    interval: weekly
+- package-ecosystem: gomod
+  target-branch: main
+  directory: "/Source/go"
+  schedule:
+    interval: weekly
+- package-ecosystem: maven
+  target-branch: main
+  directory: "/Source/java"
+  schedule:
+    interval: weekly
+- package-ecosystem: npm
+  target-branch: main
+  directory: "/Source/typescript"
+  schedule:
+    interval: weekly
+- package-ecosystem: pip
+  target-branch: main
+  directory: "/Source/python"
+  schedule:
+    interval: weekly

@@ -1,0 +1,11 @@
+/build/
+/build-*/
+*.o
+*.a
+*.exe
+*.pdb
+*.obj
+*.lib
+crash-*
+leak-*
+timeout-*

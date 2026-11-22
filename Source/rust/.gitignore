@@ -1,0 +1,4 @@
+/target
+/capi/tests/c/*.exe
+/capi/tests/c/*.pdb
+/capi/tests/c/steno-c-test

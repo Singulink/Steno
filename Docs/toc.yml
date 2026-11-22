@@ -1,0 +1,11 @@
+- name: Home
+  href: index.md
+- name: Articles
+  href: articles/
+- name: API References
+  # Opens on api/index.md, which lists where the API reference of each implementation is. The generated .NET API, one namespace, is the table of
+  # contents of that page.
+  href: api/
+  homepage: api/index.md
+- name: GitHub Repository
+  href: https://github.com/Singulink/Steno/

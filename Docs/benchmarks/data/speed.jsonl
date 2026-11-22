@@ -1,0 +1,384 @@
+{"Workload":"document/English","Pass":1,"Codec":"Steno","Encode":8016.3,"Decode":10207.2,"Chars":10637,"Bytes":10643}
+{"Workload":"document/English","Pass":1,"Codec":"UTF-8","Encode":26678.2,"Decode":17580.7,"Chars":10637,"Bytes":10649}
+{"Workload":"document/English","Pass":1,"Codec":"SCSU","Encode":2315.7,"Decode":2146.9,"Chars":10637,"Bytes":10643}
+{"Workload":"document/English","Pass":1,"Codec":"BOCU-1","Encode":1939.5,"Decode":1993.5,"Chars":10637,"Bytes":10649}
+{"Workload":"document/English","Pass":1,"Codec":"Zstd 1","Encode":604.3,"Decode":1467.1,"Chars":10637,"Bytes":3996}
+{"Workload":"document/English","Pass":1,"Codec":"Brotli 11","Encode":1.5,"Decode":674.1,"Chars":10637,"Bytes":2790}
+{"Workload":"document/French","Pass":1,"Codec":"Steno","Encode":6191.3,"Decode":8259.8,"Chars":11901,"Bytes":11996}
+{"Workload":"document/French","Pass":1,"Codec":"UTF-8","Encode":9306.8,"Decode":8162.2,"Chars":11901,"Bytes":12459}
+{"Workload":"document/French","Pass":1,"Codec":"SCSU","Encode":1641,"Decode":2015.6,"Chars":11901,"Bytes":11996}
+{"Workload":"document/French","Pass":1,"Codec":"BOCU-1","Encode":1674.1,"Decode":1845.2,"Chars":11901,"Bytes":12809}
+{"Workload":"document/French","Pass":1,"Codec":"Zstd 1","Encode":529.4,"Decode":1178.1,"Chars":11901,"Bytes":4809}
+{"Workload":"document/French","Pass":1,"Codec":"Brotli 11","Encode":1.4,"Decode":483.6,"Chars":11901,"Bytes":4083}
+{"Workload":"document/Polish","Pass":1,"Codec":"Steno","Encode":2346.5,"Decode":3148.2,"Chars":11585,"Bytes":11893}
+{"Workload":"document/Polish","Pass":1,"Codec":"UTF-8","Encode":7420.1,"Decode":6878.7,"Chars":11585,"Bytes":12252}
+{"Workload":"document/Polish","Pass":1,"Codec":"SCSU","Encode":1282.1,"Decode":2021.1,"Chars":11585,"Bytes":11965}
+{"Workload":"document/Polish","Pass":1,"Codec":"BOCU-1","Encode":1521.9,"Decode":1744.2,"Chars":11585,"Bytes":12856}
+{"Workload":"document/Polish","Pass":1,"Codec":"Zstd 1","Encode":554.4,"Decode":1208.3,"Chars":11585,"Bytes":4957}
+{"Workload":"document/Polish","Pass":1,"Codec":"Brotli 11","Encode":1.5,"Decode":441.4,"Chars":11585,"Bytes":4342}
+{"Workload":"document/Vietnamese","Pass":1,"Codec":"Steno","Encode":772.7,"Decode":1067.5,"Chars":11059,"Bytes":12530}
+{"Workload":"document/Vietnamese","Pass":1,"Codec":"UTF-8","Encode":2366.8,"Decode":2471.5,"Chars":11059,"Bytes":15103}
+{"Workload":"document/Vietnamese","Pass":1,"Codec":"SCSU","Encode":874.7,"Decode":1951.3,"Chars":11059,"Bytes":12580}
+{"Workload":"document/Vietnamese","Pass":1,"Codec":"BOCU-1","Encode":937.9,"Decode":1189.9,"Chars":11059,"Bytes":15903}
+{"Workload":"document/Vietnamese","Pass":1,"Codec":"Zstd 1","Encode":407.6,"Decode":822.8,"Chars":11059,"Bytes":5070}
+{"Workload":"document/Vietnamese","Pass":1,"Codec":"Brotli 11","Encode":1.2,"Decode":424.2,"Chars":11059,"Bytes":4107}
+{"Workload":"document/Russian","Pass":1,"Codec":"Steno","Encode":8172.3,"Decode":10419.4,"Chars":11805,"Bytes":11806}
+{"Workload":"document/Russian","Pass":1,"Codec":"UTF-8","Encode":2714.9,"Decode":2651.1,"Chars":11805,"Bytes":21728}
+{"Workload":"document/Russian","Pass":1,"Codec":"SCSU","Encode":1077.1,"Decode":2502.1,"Chars":11805,"Bytes":11806}
+{"Workload":"document/Russian","Pass":1,"Codec":"BOCU-1","Encode":1748.5,"Decode":1858.8,"Chars":11805,"Bytes":12313}
+{"Workload":"document/Russian","Pass":1,"Codec":"Zstd 1","Encode":397.5,"Decode":786.8,"Chars":11805,"Bytes":6110}
+{"Workload":"document/Russian","Pass":1,"Codec":"Brotli 11","Encode":0.7,"Decode":403.2,"Chars":11805,"Bytes":4601}
+{"Workload":"document/Greek","Pass":1,"Codec":"Steno","Encode":8355.8,"Decode":10652.7,"Chars":12431,"Bytes":12432}
+{"Workload":"document/Greek","Pass":1,"Codec":"UTF-8","Encode":2713.7,"Decode":2610.7,"Chars":12431,"Bytes":22677}
+{"Workload":"document/Greek","Pass":1,"Codec":"SCSU","Encode":1119.6,"Decode":2541.8,"Chars":12431,"Bytes":12433}
+{"Workload":"document/Greek","Pass":1,"Codec":"BOCU-1","Encode":1780,"Decode":1905.7,"Chars":12431,"Bytes":12922}
+{"Workload":"document/Greek","Pass":1,"Codec":"Zstd 1","Encode":384,"Decode":765.9,"Chars":12431,"Bytes":6787}
+{"Workload":"document/Greek","Pass":1,"Codec":"Brotli 11","Encode":0.7,"Decode":367,"Chars":12431,"Bytes":5126}
+{"Workload":"document/Arabic","Pass":1,"Codec":"Steno","Encode":6880.5,"Decode":9229.6,"Chars":7645,"Bytes":7646}
+{"Workload":"document/Arabic","Pass":1,"Codec":"UTF-8","Encode":2724.3,"Decode":2595.6,"Chars":7645,"Bytes":13808}
+{"Workload":"document/Arabic","Pass":1,"Codec":"SCSU","Encode":1287,"Decode":2521.7,"Chars":7645,"Bytes":7646}
+{"Workload":"document/Arabic","Pass":1,"Codec":"BOCU-1","Encode":1854.4,"Decode":1943.3,"Chars":7645,"Bytes":7859}
+{"Workload":"document/Arabic","Pass":1,"Codec":"Zstd 1","Encode":295.7,"Decode":618.7,"Chars":7645,"Bytes":4744}
+{"Workload":"document/Arabic","Pass":1,"Codec":"Brotli 11","Encode":0.7,"Decode":309.3,"Chars":7645,"Bytes":3634}
+{"Workload":"document/Urdu","Pass":1,"Codec":"Steno","Encode":507.5,"Decode":755.8,"Chars":10231,"Bytes":13012}
+{"Workload":"document/Urdu","Pass":1,"Codec":"UTF-8","Encode":2743.8,"Decode":2522.2,"Chars":10231,"Bytes":18159}
+{"Workload":"document/Urdu","Pass":1,"Codec":"SCSU","Encode":531.1,"Decode":1798.4,"Chars":10231,"Bytes":12603}
+{"Workload":"document/Urdu","Pass":1,"Codec":"BOCU-1","Encode":1103.6,"Decode":1399,"Chars":10231,"Bytes":13429}
+{"Workload":"document/Urdu","Pass":1,"Codec":"Zstd 1","Encode":372.8,"Decode":730,"Chars":10231,"Bytes":5778}
+{"Workload":"document/Urdu","Pass":1,"Codec":"Brotli 11","Encode":0.8,"Decode":352.1,"Chars":10231,"Bytes":4504}
+{"Workload":"document/Hindi","Pass":1,"Codec":"Steno","Encode":7831.5,"Decode":10032.1,"Chars":11500,"Bytes":11506}
+{"Workload":"document/Hindi","Pass":1,"Codec":"UTF-8","Encode":1588,"Decode":1421.3,"Chars":11500,"Bytes":29972}
+{"Workload":"document/Hindi","Pass":1,"Codec":"SCSU","Encode":1201.2,"Decode":2632.5,"Chars":11500,"Bytes":11506}
+{"Workload":"document/Hindi","Pass":1,"Codec":"BOCU-1","Encode":1866.5,"Decode":1962,"Chars":11500,"Bytes":11841}
+{"Workload":"document/Hindi","Pass":1,"Codec":"Zstd 1","Encode":282.2,"Decode":513.9,"Chars":11500,"Bytes":7270}
+{"Workload":"document/Hindi","Pass":1,"Codec":"Brotli 11","Encode":0.5,"Decode":362.5,"Chars":11500,"Bytes":4888}
+{"Workload":"document/Thai","Pass":1,"Codec":"Steno","Encode":7370.7,"Decode":9707,"Chars":9294,"Bytes":9295}
+{"Workload":"document/Thai","Pass":1,"Codec":"UTF-8","Encode":1468.4,"Decode":1357.4,"Chars":9294,"Bytes":27074}
+{"Workload":"document/Thai","Pass":1,"Codec":"SCSU","Encode":1153,"Decode":2471.3,"Chars":9294,"Bytes":9296}
+{"Workload":"document/Thai","Pass":1,"Codec":"BOCU-1","Encode":1447.5,"Decode":1487.3,"Chars":9294,"Bytes":9431}
+{"Workload":"document/Thai","Pass":1,"Codec":"Zstd 1","Encode":259,"Decode":475.5,"Chars":9294,"Bytes":6509}
+{"Workload":"document/Thai","Pass":1,"Codec":"Brotli 11","Encode":0.5,"Decode":302.3,"Chars":9294,"Bytes":4645}
+{"Workload":"document/Amharic","Pass":1,"Codec":"Steno","Encode":211.3,"Decode":312,"Chars":5496,"Bytes":9087}
+{"Workload":"document/Amharic","Pass":1,"Codec":"UTF-8","Encode":1442.9,"Decode":1320.1,"Chars":5496,"Bytes":16324}
+{"Workload":"document/Amharic","Pass":1,"Codec":"SCSU","Encode":369.2,"Decode":1213.6,"Chars":5496,"Bytes":8273}
+{"Workload":"document/Amharic","Pass":1,"Codec":"BOCU-1","Encode":742.6,"Decode":962.4,"Chars":5496,"Bytes":9233}
+{"Workload":"document/Amharic","Pass":1,"Codec":"Zstd 1","Encode":209.4,"Decode":404.7,"Chars":5496,"Bytes":4608}
+{"Workload":"document/Amharic","Pass":1,"Codec":"Brotli 11","Encode":0.5,"Decode":229.9,"Chars":5496,"Bytes":3570}
+{"Workload":"document/Chinese (Simplified)","Pass":1,"Codec":"Steno","Encode":3337.4,"Decode":1712.5,"Chars":2988,"Bytes":5666}
+{"Workload":"document/Chinese (Simplified)","Pass":1,"Codec":"UTF-8","Encode":1491.8,"Decode":1363.4,"Chars":2988,"Bytes":8568}
+{"Workload":"document/Chinese (Simplified)","Pass":1,"Codec":"SCSU","Encode":1287.6,"Decode":1979.8,"Chars":2988,"Bytes":5964}
+{"Workload":"document/Chinese (Simplified)","Pass":1,"Codec":"BOCU-1","Encode":388.6,"Decode":406.9,"Chars":2988,"Bytes":6269}
+{"Workload":"document/Chinese (Simplified)","Pass":1,"Codec":"Zstd 1","Encode":177.1,"Decode":363.4,"Chars":2988,"Bytes":4331}
+{"Workload":"document/Chinese (Simplified)","Pass":1,"Codec":"Brotli 11","Encode":0.6,"Decode":139.2,"Chars":2988,"Bytes":3402}
+{"Workload":"document/Japanese","Pass":1,"Codec":"Steno","Encode":2978.1,"Decode":1728.5,"Chars":4182,"Bytes":5991}
+{"Workload":"document/Japanese","Pass":1,"Codec":"UTF-8","Encode":1469.3,"Decode":1345.9,"Chars":4182,"Bytes":12260}
+{"Workload":"document/Japanese","Pass":1,"Codec":"SCSU","Encode":372.1,"Decode":1630.6,"Chars":4182,"Bytes":7448}
+{"Workload":"document/Japanese","Pass":1,"Codec":"BOCU-1","Encode":345,"Decode":301.5,"Chars":4182,"Bytes":8636}
+{"Workload":"document/Japanese","Pass":1,"Codec":"Zstd 1","Encode":194.4,"Decode":381.8,"Chars":4182,"Bytes":4629}
+{"Workload":"document/Japanese","Pass":1,"Codec":"Brotli 11","Encode":0.5,"Decode":176.2,"Chars":4182,"Bytes":3729}
+{"Workload":"document/Korean","Pass":1,"Codec":"Steno","Encode":3471.6,"Decode":1534,"Chars":4715,"Bytes":8061}
+{"Workload":"document/Korean","Pass":1,"Codec":"UTF-8","Encode":1638.3,"Decode":1469.1,"Chars":4715,"Bytes":11404}
+{"Workload":"document/Korean","Pass":1,"Codec":"SCSU","Encode":953.5,"Decode":2003.1,"Chars":4715,"Bytes":9410}
+{"Workload":"document/Korean","Pass":1,"Codec":"BOCU-1","Encode":485.7,"Decode":512.8,"Chars":4715,"Bytes":8589}
+{"Workload":"document/Korean","Pass":1,"Codec":"Zstd 1","Encode":217.3,"Decode":431.5,"Chars":4715,"Bytes":4353}
+{"Workload":"document/Korean","Pass":1,"Codec":"Brotli 11","Encode":0.7,"Decode":206.5,"Chars":4715,"Bytes":3578}
+{"Workload":"document/chat_en_emoji","Pass":1,"Codec":"Steno","Encode":962.9,"Decode":1187.5,"Chars":618,"Bytes":633}
+{"Workload":"document/chat_en_emoji","Pass":1,"Codec":"UTF-8","Encode":7439.6,"Decode":6909.5,"Chars":618,"Bytes":676}
+{"Workload":"document/chat_en_emoji","Pass":1,"Codec":"SCSU","Encode":1330.2,"Decode":2025.6,"Chars":618,"Bytes":634}
+{"Workload":"document/chat_en_emoji","Pass":1,"Codec":"BOCU-1","Encode":1421.1,"Decode":1566.9,"Chars":618,"Bytes":652}
+{"Workload":"document/chat_en_emoji","Pass":1,"Codec":"Zstd 1","Encode":171.5,"Decode":416.2,"Chars":618,"Bytes":488}
+{"Workload":"document/chat_en_emoji","Pass":1,"Codec":"Brotli 11","Encode":0.8,"Decode":175.4,"Chars":618,"Bytes":397}
+{"Workload":"document/chat_ru_emoji","Pass":1,"Codec":"Steno","Encode":1042.1,"Decode":1359.4,"Chars":652,"Bytes":680}
+{"Workload":"document/chat_ru_emoji","Pass":1,"Codec":"UTF-8","Encode":2526.3,"Decode":2450.3,"Chars":652,"Bytes":1161}
+{"Workload":"document/chat_ru_emoji","Pass":1,"Codec":"SCSU","Encode":960.6,"Decode":2027.9,"Chars":652,"Bytes":691}
+{"Workload":"document/chat_ru_emoji","Pass":1,"Codec":"BOCU-1","Encode":1210.9,"Decode":1411.1,"Chars":652,"Bytes":753}
+{"Workload":"document/chat_ru_emoji","Pass":1,"Codec":"Zstd 1","Encode":138.1,"Decode":274.9,"Chars":652,"Bytes":675}
+{"Workload":"document/chat_ru_emoji","Pass":1,"Codec":"Brotli 11","Encode":0.6,"Decode":128.5,"Chars":652,"Bytes":540}
+{"Workload":"document/json_catalog","Pass":1,"Codec":"Steno","Encode":1466,"Decode":1763.9,"Chars":1326,"Bytes":1399}
+{"Workload":"document/json_catalog","Pass":1,"Codec":"UTF-8","Encode":6377.8,"Decode":5846.5,"Chars":1326,"Bytes":1648}
+{"Workload":"document/json_catalog","Pass":1,"Codec":"SCSU","Encode":1196.8,"Decode":1991.5,"Chars":1326,"Bytes":1419}
+{"Workload":"document/json_catalog","Pass":1,"Codec":"BOCU-1","Encode":1318.8,"Decode":1472.8,"Chars":1326,"Bytes":1430}
+{"Workload":"document/json_catalog","Pass":1,"Codec":"Zstd 1","Encode":277.3,"Decode":620.6,"Chars":1326,"Bytes":1026}
+{"Workload":"document/json_catalog","Pass":1,"Codec":"Brotli 11","Encode":0.9,"Decode":212.9,"Chars":1326,"Bytes":829}
+{"Workload":"document/tech_ja_en","Pass":1,"Codec":"Steno","Encode":596.6,"Decode":883.6,"Chars":647,"Bytes":767}
+{"Workload":"document/tech_ja_en","Pass":1,"Codec":"UTF-8","Encode":2794.3,"Decode":2663.4,"Chars":647,"Bytes":1161}
+{"Workload":"document/tech_ja_en","Pass":1,"Codec":"SCSU","Encode":672.9,"Decode":1816.8,"Chars":647,"Bytes":790}
+{"Workload":"document/tech_ja_en","Pass":1,"Codec":"BOCU-1","Encode":709.4,"Decode":724.3,"Chars":647,"Bytes":876}
+{"Workload":"document/tech_ja_en","Pass":1,"Codec":"Zstd 1","Encode":148.4,"Decode":336.8,"Chars":647,"Bytes":830}
+{"Workload":"document/tech_ja_en","Pass":1,"Codec":"Brotli 11","Encode":0.6,"Decode":120.1,"Chars":647,"Bytes":648}
+{"Workload":"16/English","Pass":1,"Codec":"Steno","Encode":1388.5,"Decode":1529,"Chars":10351,"Bytes":10357}
+{"Workload":"16/English","Pass":1,"Codec":"UTF-8","Encode":2297.7,"Decode":2567.2,"Chars":10351,"Bytes":10363}
+{"Workload":"16/English","Pass":1,"Codec":"SCSU","Encode":446.8,"Decode":440.6,"Chars":10351,"Bytes":10357}
+{"Workload":"16/English","Pass":1,"Codec":"BOCU-1","Encode":400.2,"Decode":400.7,"Chars":10351,"Bytes":10360}
+{"Workload":"16/English","Pass":1,"Codec":"Zstd 1","Encode":112,"Decode":490,"Chars":10351,"Bytes":16681}
+{"Workload":"16/English","Pass":1,"Codec":"Brotli 11","Encode":0.1,"Decode":36.1,"Chars":10351,"Bytes":12035}
+{"Workload":"16/French","Pass":1,"Codec":"Steno","Encode":1398.9,"Decode":1543.9,"Chars":11551,"Bytes":11646}
+{"Workload":"16/French","Pass":1,"Codec":"UTF-8","Encode":2055.2,"Decode":1964.1,"Chars":11551,"Bytes":12109}
+{"Workload":"16/French","Pass":1,"Codec":"SCSU","Encode":397.7,"Decode":419.4,"Chars":11551,"Bytes":11646}
+{"Workload":"16/French","Pass":1,"Codec":"BOCU-1","Encode":405.6,"Decode":413.7,"Chars":11551,"Bytes":12434}
+{"Workload":"16/French","Pass":1,"Codec":"Zstd 1","Encode":110.4,"Decode":485.9,"Chars":11551,"Bytes":19111}
+{"Workload":"16/French","Pass":1,"Codec":"Brotli 11","Encode":0.1,"Decode":67.3,"Chars":11551,"Bytes":15117}
+{"Workload":"16/Polish","Pass":1,"Codec":"Steno","Encode":796.2,"Decode":915.3,"Chars":11320,"Bytes":11663}
+{"Workload":"16/Polish","Pass":1,"Codec":"UTF-8","Encode":1905.3,"Decode":1811.2,"Chars":11320,"Bytes":11987}
+{"Workload":"16/Polish","Pass":1,"Codec":"SCSU","Encode":366.5,"Decode":408.6,"Chars":11320,"Bytes":11875}
+{"Workload":"16/Polish","Pass":1,"Codec":"BOCU-1","Encode":407.6,"Decode":420.4,"Chars":11320,"Bytes":12561}
+{"Workload":"16/Polish","Pass":1,"Codec":"Zstd 1","Encode":107,"Decode":482.9,"Chars":11320,"Bytes":18809}
+{"Workload":"16/Polish","Pass":1,"Codec":"Brotli 11","Encode":0.1,"Decode":81.3,"Chars":11320,"Bytes":15019}
+{"Workload":"16/Vietnamese","Pass":1,"Codec":"Steno","Encode":332.5,"Decode":387.1,"Chars":10646,"Bytes":12988}
+{"Workload":"16/Vietnamese","Pass":1,"Codec":"UTF-8","Encode":1196.5,"Decode":1108.7,"Chars":10646,"Bytes":14690}
+{"Workload":"16/Vietnamese","Pass":1,"Codec":"SCSU","Encode":214.9,"Decode":377.2,"Chars":10646,"Bytes":13242}
+{"Workload":"16/Vietnamese","Pass":1,"Codec":"BOCU-1","Encode":338,"Decode":376.9,"Chars":10646,"Bytes":15332}
+{"Workload":"16/Vietnamese","Pass":1,"Codec":"Zstd 1","Encode":97.9,"Decode":425.1,"Chars":10646,"Bytes":21278}
+{"Workload":"16/Vietnamese","Pass":1,"Codec":"Brotli 11","Encode":0.1,"Decode":73.2,"Chars":10646,"Bytes":17618}
+{"Workload":"16/Russian","Pass":1,"Codec":"Steno","Encode":530.1,"Decode":556.4,"Chars":11573,"Bytes":12344}
+{"Workload":"16/Russian","Pass":1,"Codec":"UTF-8","Encode":1234,"Decode":1132.2,"Chars":11573,"Bytes":21496}
+{"Workload":"16/Russian","Pass":1,"Codec":"SCSU","Encode":289.3,"Decode":387.4,"Chars":11573,"Bytes":12344}
+{"Workload":"16/Russian","Pass":1,"Codec":"BOCU-1","Encode":394,"Decode":400.5,"Chars":11573,"Bytes":12716}
+{"Workload":"16/Russian","Pass":1,"Codec":"Zstd 1","Encode":91.5,"Decode":443.8,"Chars":11573,"Bytes":28471}
+{"Workload":"16/Russian","Pass":1,"Codec":"Brotli 11","Encode":0.1,"Decode":28.2,"Chars":11573,"Bytes":23280}
+{"Workload":"16/Greek","Pass":1,"Codec":"Steno","Encode":521.9,"Decode":550.5,"Chars":12135,"Bytes":12946}
+{"Workload":"16/Greek","Pass":1,"Codec":"UTF-8","Encode":1216.2,"Decode":1137.3,"Chars":12135,"Bytes":22381}
+{"Workload":"16/Greek","Pass":1,"Codec":"SCSU","Encode":263.4,"Decode":369.5,"Chars":12135,"Bytes":13757}
+{"Workload":"16/Greek","Pass":1,"Codec":"BOCU-1","Encode":383.7,"Decode":387.2,"Chars":12135,"Bytes":13292}
+{"Workload":"16/Greek","Pass":1,"Codec":"Zstd 1","Encode":89.4,"Decode":443,"Chars":12135,"Bytes":29752}
+{"Workload":"16/Greek","Pass":1,"Codec":"Brotli 11","Encode":0.1,"Decode":68.7,"Chars":12135,"Bytes":25647}
+{"Workload":"16/Arabic","Pass":1,"Codec":"Steno","Encode":495.3,"Decode":549.7,"Chars":7398,"Bytes":7907}
+{"Workload":"16/Arabic","Pass":1,"Codec":"UTF-8","Encode":1204.8,"Decode":1111.6,"Chars":7398,"Bytes":13561}
+{"Workload":"16/Arabic","Pass":1,"Codec":"SCSU","Encode":269.9,"Decode":384.2,"Chars":7398,"Bytes":7907}
+{"Workload":"16/Arabic","Pass":1,"Codec":"BOCU-1","Encode":387.5,"Decode":400.7,"Chars":7398,"Bytes":8018}
+{"Workload":"16/Arabic","Pass":1,"Codec":"Zstd 1","Encode":87,"Decode":425.8,"Chars":7398,"Bytes":18192}
+{"Workload":"16/Arabic","Pass":1,"Codec":"Brotli 11","Encode":0.1,"Decode":44.5,"Chars":7398,"Bytes":15343}
+{"Workload":"16/Urdu","Pass":1,"Codec":"Steno","Encode":252.5,"Decode":321.2,"Chars":9910,"Bytes":13286}
+{"Workload":"16/Urdu","Pass":1,"Codec":"UTF-8","Encode":1233.2,"Decode":1114.5,"Chars":9910,"Bytes":17838}
+{"Workload":"16/Urdu","Pass":1,"Codec":"SCSU","Encode":178.7,"Decode":356.3,"Chars":9910,"Bytes":13546}
+{"Workload":"16/Urdu","Pass":1,"Codec":"BOCU-1","Encode":348.4,"Decode":389.9,"Chars":9910,"Bytes":13455}
+{"Workload":"16/Urdu","Pass":1,"Codec":"Zstd 1","Encode":89.8,"Decode":434.9,"Chars":9910,"Bytes":23931}
+{"Workload":"16/Urdu","Pass":1,"Codec":"Brotli 11","Encode":0.1,"Decode":75.4,"Chars":9910,"Bytes":20542}
+{"Workload":"16/Hindi","Pass":1,"Codec":"Steno","Encode":510.1,"Decode":542.8,"Chars":11155,"Bytes":11910}
+{"Workload":"16/Hindi","Pass":1,"Codec":"UTF-8","Encode":918.6,"Decode":806.4,"Chars":11155,"Bytes":29627}
+{"Workload":"16/Hindi","Pass":1,"Codec":"SCSU","Encode":274.2,"Decode":378.7,"Chars":11155,"Bytes":11910}
+{"Workload":"16/Hindi","Pass":1,"Codec":"BOCU-1","Encode":386.2,"Decode":400.2,"Chars":11155,"Bytes":12127}
+{"Workload":"16/Hindi","Pass":1,"Codec":"Zstd 1","Encode":40,"Decode":347.7,"Chars":11155,"Bytes":36110}
+{"Workload":"16/Hindi","Pass":1,"Codec":"Brotli 11","Encode":0.1,"Decode":13.9,"Chars":11155,"Bytes":26356}
+{"Workload":"16/Thai","Pass":1,"Codec":"Steno","Encode":534.7,"Decode":555.3,"Chars":9183,"Bytes":9805}
+{"Workload":"16/Thai","Pass":1,"Codec":"UTF-8","Encode":856.9,"Decode":769.8,"Chars":9183,"Bytes":26963}
+{"Workload":"16/Thai","Pass":1,"Codec":"SCSU","Encode":303.6,"Decode":403.4,"Chars":9183,"Bytes":10427}
+{"Workload":"16/Thai","Pass":1,"Codec":"BOCU-1","Encode":422.1,"Decode":427.3,"Chars":9183,"Bytes":9852}
+{"Workload":"16/Thai","Pass":1,"Codec":"Zstd 1","Encode":34.9,"Decode":337.1,"Chars":9183,"Bytes":32359}
+{"Workload":"16/Thai","Pass":1,"Codec":"Brotli 11","Encode":0.1,"Decode":12.7,"Chars":9183,"Bytes":24494}
+{"Workload":"16/Amharic","Pass":1,"Codec":"Steno","Encode":153,"Decode":198.5,"Chars":5415,"Bytes":9498}
+{"Workload":"16/Amharic","Pass":1,"Codec":"UTF-8","Encode":738.4,"Decode":719.2,"Chars":5415,"Bytes":16243}
+{"Workload":"16/Amharic","Pass":1,"Codec":"SCSU","Encode":131.3,"Decode":318.2,"Chars":5415,"Bytes":9732}
+{"Workload":"16/Amharic","Pass":1,"Codec":"BOCU-1","Encode":313.5,"Decode":348.1,"Chars":5415,"Bytes":9248}
+{"Workload":"16/Amharic","Pass":1,"Codec":"Zstd 1","Encode":40.9,"Decode":336.2,"Chars":5415,"Bytes":19633}
+{"Workload":"16/Amharic","Pass":1,"Codec":"Brotli 11","Encode":0.1,"Decode":13.6,"Chars":5415,"Bytes":15125}
+{"Workload":"16/Chinese (Simplified)","Pass":1,"Codec":"Steno","Encode":308.2,"Decode":310.3,"Chars":2897,"Bytes":5819}
+{"Workload":"16/Chinese (Simplified)","Pass":1,"Codec":"UTF-8","Encode":737.6,"Decode":725.3,"Chars":2897,"Bytes":8477}
+{"Workload":"16/Chinese (Simplified)","Pass":1,"Codec":"SCSU","Encode":252.1,"Decode":351,"Chars":2897,"Bytes":6046}
+{"Workload":"16/Chinese (Simplified)","Pass":1,"Codec":"BOCU-1","Encode":197.9,"Decode":201.2,"Chars":2897,"Bytes":6287}
+{"Workload":"16/Chinese (Simplified)","Pass":1,"Codec":"Zstd 1","Encode":71.6,"Decode":324,"Chars":2897,"Bytes":10580}
+{"Workload":"16/Chinese (Simplified)","Pass":1,"Codec":"Brotli 11","Encode":0.1,"Decode":35.1,"Chars":2897,"Bytes":9214}
+{"Workload":"16/Japanese","Pass":1,"Codec":"Steno","Encode":306.7,"Decode":349,"Chars":4092,"Bytes":6483}
+{"Workload":"16/Japanese","Pass":1,"Codec":"UTF-8","Encode":718.9,"Decode":719.1,"Chars":4092,"Bytes":12170}
+{"Workload":"16/Japanese","Pass":1,"Codec":"SCSU","Encode":165.6,"Decode":354.7,"Chars":4092,"Bytes":7628}
+{"Workload":"16/Japanese","Pass":1,"Codec":"BOCU-1","Encode":196.6,"Decode":178.6,"Chars":4092,"Bytes":8737}
+{"Workload":"16/Japanese","Pass":1,"Codec":"Zstd 1","Encode":64,"Decode":333,"Chars":4092,"Bytes":14919}
+{"Workload":"16/Japanese","Pass":1,"Codec":"Brotli 11","Encode":0.1,"Decode":27.5,"Chars":4092,"Bytes":13155}
+{"Workload":"16/Korean","Pass":1,"Codec":"Steno","Encode":354.6,"Decode":371.5,"Chars":4509,"Bytes":8190}
+{"Workload":"16/Korean","Pass":1,"Codec":"UTF-8","Encode":796.5,"Decode":788.2,"Chars":4509,"Bytes":11198}
+{"Workload":"16/Korean","Pass":1,"Codec":"SCSU","Encode":228.3,"Decode":356.9,"Chars":4509,"Bytes":9257}
+{"Workload":"16/Korean","Pass":1,"Codec":"BOCU-1","Encode":223.6,"Decode":223.3,"Chars":4509,"Bytes":8614}
+{"Workload":"16/Korean","Pass":1,"Codec":"Zstd 1","Encode":81.5,"Decode":356.9,"Chars":4509,"Bytes":14234}
+{"Workload":"16/Korean","Pass":1,"Codec":"Brotli 11","Encode":0.1,"Decode":67.8,"Chars":4509,"Bytes":12550}
+{"Workload":"document/English","Pass":2,"Codec":"Steno","Encode":8046.2,"Decode":10219.9,"Chars":10637,"Bytes":10643}
+{"Workload":"document/English","Pass":2,"Codec":"UTF-8","Encode":25867.4,"Decode":17622.7,"Chars":10637,"Bytes":10649}
+{"Workload":"document/English","Pass":2,"Codec":"SCSU","Encode":2328.7,"Decode":2170.7,"Chars":10637,"Bytes":10643}
+{"Workload":"document/English","Pass":2,"Codec":"BOCU-1","Encode":1960.3,"Decode":2003.3,"Chars":10637,"Bytes":10649}
+{"Workload":"document/English","Pass":2,"Codec":"Zstd 1","Encode":608.2,"Decode":1463.9,"Chars":10637,"Bytes":3996}
+{"Workload":"document/English","Pass":2,"Codec":"Brotli 11","Encode":1.5,"Decode":674.3,"Chars":10637,"Bytes":2790}
+{"Workload":"document/French","Pass":2,"Codec":"Steno","Encode":6296.6,"Decode":8245.1,"Chars":11901,"Bytes":11996}
+{"Workload":"document/French","Pass":2,"Codec":"UTF-8","Encode":9359.1,"Decode":8211.4,"Chars":11901,"Bytes":12459}
+{"Workload":"document/French","Pass":2,"Codec":"SCSU","Encode":1639.6,"Decode":2029.8,"Chars":11901,"Bytes":11996}
+{"Workload":"document/French","Pass":2,"Codec":"BOCU-1","Encode":1673.1,"Decode":1855.7,"Chars":11901,"Bytes":12809}
+{"Workload":"document/French","Pass":2,"Codec":"Zstd 1","Encode":535.6,"Decode":1166.2,"Chars":11901,"Bytes":4809}
+{"Workload":"document/French","Pass":2,"Codec":"Brotli 11","Encode":1.4,"Decode":487.2,"Chars":11901,"Bytes":4083}
+{"Workload":"document/Polish","Pass":2,"Codec":"Steno","Encode":2364.6,"Decode":3167,"Chars":11585,"Bytes":11893}
+{"Workload":"document/Polish","Pass":2,"Codec":"UTF-8","Encode":7469.7,"Decode":6926.2,"Chars":11585,"Bytes":12252}
+{"Workload":"document/Polish","Pass":2,"Codec":"SCSU","Encode":1271.1,"Decode":2120,"Chars":11585,"Bytes":11965}
+{"Workload":"document/Polish","Pass":2,"Codec":"BOCU-1","Encode":1521.9,"Decode":1748.2,"Chars":11585,"Bytes":12856}
+{"Workload":"document/Polish","Pass":2,"Codec":"Zstd 1","Encode":559.1,"Decode":1216.3,"Chars":11585,"Bytes":4957}
+{"Workload":"document/Polish","Pass":2,"Codec":"Brotli 11","Encode":1.5,"Decode":442.7,"Chars":11585,"Bytes":4342}
+{"Workload":"document/Vietnamese","Pass":2,"Codec":"Steno","Encode":770.7,"Decode":1077.5,"Chars":11059,"Bytes":12530}
+{"Workload":"document/Vietnamese","Pass":2,"Codec":"UTF-8","Encode":2370.9,"Decode":2483,"Chars":11059,"Bytes":15103}
+{"Workload":"document/Vietnamese","Pass":2,"Codec":"SCSU","Encode":878.7,"Decode":1890.2,"Chars":11059,"Bytes":12580}
+{"Workload":"document/Vietnamese","Pass":2,"Codec":"BOCU-1","Encode":949.4,"Decode":1189.7,"Chars":11059,"Bytes":15903}
+{"Workload":"document/Vietnamese","Pass":2,"Codec":"Zstd 1","Encode":413.7,"Decode":828.1,"Chars":11059,"Bytes":5070}
+{"Workload":"document/Vietnamese","Pass":2,"Codec":"Brotli 11","Encode":1.2,"Decode":420,"Chars":11059,"Bytes":4107}
+{"Workload":"document/Russian","Pass":2,"Codec":"Steno","Encode":8140.4,"Decode":10382.3,"Chars":11805,"Bytes":11806}
+{"Workload":"document/Russian","Pass":2,"Codec":"UTF-8","Encode":2711,"Decode":2658.2,"Chars":11805,"Bytes":21728}
+{"Workload":"document/Russian","Pass":2,"Codec":"SCSU","Encode":1083.5,"Decode":2509.9,"Chars":11805,"Bytes":11806}
+{"Workload":"document/Russian","Pass":2,"Codec":"BOCU-1","Encode":1738.5,"Decode":1858.1,"Chars":11805,"Bytes":12313}
+{"Workload":"document/Russian","Pass":2,"Codec":"Zstd 1","Encode":395.8,"Decode":788.2,"Chars":11805,"Bytes":6110}
+{"Workload":"document/Russian","Pass":2,"Codec":"Brotli 11","Encode":0.7,"Decode":400.7,"Chars":11805,"Bytes":4601}
+{"Workload":"document/Greek","Pass":2,"Codec":"Steno","Encode":8361.9,"Decode":10564.8,"Chars":12431,"Bytes":12432}
+{"Workload":"document/Greek","Pass":2,"Codec":"UTF-8","Encode":2714.3,"Decode":2620.9,"Chars":12431,"Bytes":22677}
+{"Workload":"document/Greek","Pass":2,"Codec":"SCSU","Encode":1121.5,"Decode":2543.2,"Chars":12431,"Bytes":12433}
+{"Workload":"document/Greek","Pass":2,"Codec":"BOCU-1","Encode":1789.2,"Decode":1898.4,"Chars":12431,"Bytes":12922}
+{"Workload":"document/Greek","Pass":2,"Codec":"Zstd 1","Encode":385,"Decode":751.5,"Chars":12431,"Bytes":6787}
+{"Workload":"document/Greek","Pass":2,"Codec":"Brotli 11","Encode":0.7,"Decode":362.2,"Chars":12431,"Bytes":5126}
+{"Workload":"document/Arabic","Pass":2,"Codec":"Steno","Encode":6918.6,"Decode":9210.5,"Chars":7645,"Bytes":7646}
+{"Workload":"document/Arabic","Pass":2,"Codec":"UTF-8","Encode":2728.4,"Decode":2617,"Chars":7645,"Bytes":13808}
+{"Workload":"document/Arabic","Pass":2,"Codec":"SCSU","Encode":1299.3,"Decode":2529,"Chars":7645,"Bytes":7646}
+{"Workload":"document/Arabic","Pass":2,"Codec":"BOCU-1","Encode":1866.7,"Decode":1955.3,"Chars":7645,"Bytes":7859}
+{"Workload":"document/Arabic","Pass":2,"Codec":"Zstd 1","Encode":299.2,"Decode":616.8,"Chars":7645,"Bytes":4744}
+{"Workload":"document/Arabic","Pass":2,"Codec":"Brotli 11","Encode":0.7,"Decode":308.9,"Chars":7645,"Bytes":3634}
+{"Workload":"document/Urdu","Pass":2,"Codec":"Steno","Encode":505.2,"Decode":760,"Chars":10231,"Bytes":13012}
+{"Workload":"document/Urdu","Pass":2,"Codec":"UTF-8","Encode":2749.2,"Decode":2512.6,"Chars":10231,"Bytes":18159}
+{"Workload":"document/Urdu","Pass":2,"Codec":"SCSU","Encode":531.9,"Decode":1819.5,"Chars":10231,"Bytes":12603}
+{"Workload":"document/Urdu","Pass":2,"Codec":"BOCU-1","Encode":1105.5,"Decode":1414.4,"Chars":10231,"Bytes":13429}
+{"Workload":"document/Urdu","Pass":2,"Codec":"Zstd 1","Encode":374.1,"Decode":730.6,"Chars":10231,"Bytes":5778}
+{"Workload":"document/Urdu","Pass":2,"Codec":"Brotli 11","Encode":0.8,"Decode":351.3,"Chars":10231,"Bytes":4504}
+{"Workload":"document/Hindi","Pass":2,"Codec":"Steno","Encode":7754.9,"Decode":10196.2,"Chars":11500,"Bytes":11506}
+{"Workload":"document/Hindi","Pass":2,"Codec":"UTF-8","Encode":1588.7,"Decode":1421.1,"Chars":11500,"Bytes":29972}
+{"Workload":"document/Hindi","Pass":2,"Codec":"SCSU","Encode":1234.1,"Decode":2610.2,"Chars":11500,"Bytes":11506}
+{"Workload":"document/Hindi","Pass":2,"Codec":"BOCU-1","Encode":1873.1,"Decode":1972.5,"Chars":11500,"Bytes":11841}
+{"Workload":"document/Hindi","Pass":2,"Codec":"Zstd 1","Encode":279.1,"Decode":516,"Chars":11500,"Bytes":7270}
+{"Workload":"document/Hindi","Pass":2,"Codec":"Brotli 11","Encode":0.5,"Decode":362.1,"Chars":11500,"Bytes":4888}
+{"Workload":"document/Thai","Pass":2,"Codec":"Steno","Encode":7375.6,"Decode":9694.5,"Chars":9294,"Bytes":9295}
+{"Workload":"document/Thai","Pass":2,"Codec":"UTF-8","Encode":1474.6,"Decode":1362.1,"Chars":9294,"Bytes":27074}
+{"Workload":"document/Thai","Pass":2,"Codec":"SCSU","Encode":1148.4,"Decode":2479.8,"Chars":9294,"Bytes":9296}
+{"Workload":"document/Thai","Pass":2,"Codec":"BOCU-1","Encode":1458.3,"Decode":1502.6,"Chars":9294,"Bytes":9431}
+{"Workload":"document/Thai","Pass":2,"Codec":"Zstd 1","Encode":258.9,"Decode":474.9,"Chars":9294,"Bytes":6509}
+{"Workload":"document/Thai","Pass":2,"Codec":"Brotli 11","Encode":0.5,"Decode":302.7,"Chars":9294,"Bytes":4645}
+{"Workload":"document/Amharic","Pass":2,"Codec":"Steno","Encode":213.7,"Decode":304.8,"Chars":5496,"Bytes":9087}
+{"Workload":"document/Amharic","Pass":2,"Codec":"UTF-8","Encode":1442.4,"Decode":1327.6,"Chars":5496,"Bytes":16324}
+{"Workload":"document/Amharic","Pass":2,"Codec":"SCSU","Encode":365.7,"Decode":1224.8,"Chars":5496,"Bytes":8273}
+{"Workload":"document/Amharic","Pass":2,"Codec":"BOCU-1","Encode":735.4,"Decode":973.5,"Chars":5496,"Bytes":9233}
+{"Workload":"document/Amharic","Pass":2,"Codec":"Zstd 1","Encode":210.2,"Decode":403.9,"Chars":5496,"Bytes":4608}
+{"Workload":"document/Amharic","Pass":2,"Codec":"Brotli 11","Encode":0.5,"Decode":231.2,"Chars":5496,"Bytes":3570}
+{"Workload":"document/Chinese (Simplified)","Pass":2,"Codec":"Steno","Encode":3347.7,"Decode":1715.2,"Chars":2988,"Bytes":5666}
+{"Workload":"document/Chinese (Simplified)","Pass":2,"Codec":"UTF-8","Encode":1490.4,"Decode":1370.2,"Chars":2988,"Bytes":8568}
+{"Workload":"document/Chinese (Simplified)","Pass":2,"Codec":"SCSU","Encode":1319.3,"Decode":1994.7,"Chars":2988,"Bytes":5964}
+{"Workload":"document/Chinese (Simplified)","Pass":2,"Codec":"BOCU-1","Encode":389.6,"Decode":416.2,"Chars":2988,"Bytes":6269}
+{"Workload":"document/Chinese (Simplified)","Pass":2,"Codec":"Zstd 1","Encode":176.4,"Decode":362.1,"Chars":2988,"Bytes":4331}
+{"Workload":"document/Chinese (Simplified)","Pass":2,"Codec":"Brotli 11","Encode":0.6,"Decode":140.2,"Chars":2988,"Bytes":3402}
+{"Workload":"document/Japanese","Pass":2,"Codec":"Steno","Encode":2970.8,"Decode":1748,"Chars":4182,"Bytes":5991}
+{"Workload":"document/Japanese","Pass":2,"Codec":"UTF-8","Encode":1474,"Decode":1347.6,"Chars":4182,"Bytes":12260}
+{"Workload":"document/Japanese","Pass":2,"Codec":"SCSU","Encode":372.4,"Decode":1636.7,"Chars":4182,"Bytes":7448}
+{"Workload":"document/Japanese","Pass":2,"Codec":"BOCU-1","Encode":345.8,"Decode":301.4,"Chars":4182,"Bytes":8636}
+{"Workload":"document/Japanese","Pass":2,"Codec":"Zstd 1","Encode":193.6,"Decode":378.7,"Chars":4182,"Bytes":4629}
+{"Workload":"document/Japanese","Pass":2,"Codec":"Brotli 11","Encode":0.5,"Decode":175.9,"Chars":4182,"Bytes":3729}
+{"Workload":"document/Korean","Pass":2,"Codec":"Steno","Encode":3460.1,"Decode":1545.4,"Chars":4715,"Bytes":8061}
+{"Workload":"document/Korean","Pass":2,"Codec":"UTF-8","Encode":1631.3,"Decode":1472,"Chars":4715,"Bytes":11404}
+{"Workload":"document/Korean","Pass":2,"Codec":"SCSU","Encode":963.7,"Decode":2012.2,"Chars":4715,"Bytes":9410}
+{"Workload":"document/Korean","Pass":2,"Codec":"BOCU-1","Encode":488.9,"Decode":516.7,"Chars":4715,"Bytes":8589}
+{"Workload":"document/Korean","Pass":2,"Codec":"Zstd 1","Encode":219.6,"Decode":432.3,"Chars":4715,"Bytes":4353}
+{"Workload":"document/Korean","Pass":2,"Codec":"Brotli 11","Encode":0.7,"Decode":206.9,"Chars":4715,"Bytes":3578}
+{"Workload":"document/chat_en_emoji","Pass":2,"Codec":"Steno","Encode":984.5,"Decode":1166.9,"Chars":618,"Bytes":633}
+{"Workload":"document/chat_en_emoji","Pass":2,"Codec":"UTF-8","Encode":7454.8,"Decode":6938.6,"Chars":618,"Bytes":676}
+{"Workload":"document/chat_en_emoji","Pass":2,"Codec":"SCSU","Encode":1299.4,"Decode":2063,"Chars":618,"Bytes":634}
+{"Workload":"document/chat_en_emoji","Pass":2,"Codec":"BOCU-1","Encode":1427,"Decode":1571.9,"Chars":618,"Bytes":652}
+{"Workload":"document/chat_en_emoji","Pass":2,"Codec":"Zstd 1","Encode":170.3,"Decode":422.4,"Chars":618,"Bytes":488}
+{"Workload":"document/chat_en_emoji","Pass":2,"Codec":"Brotli 11","Encode":0.8,"Decode":176.3,"Chars":618,"Bytes":397}
+{"Workload":"document/chat_ru_emoji","Pass":2,"Codec":"Steno","Encode":1039.4,"Decode":1352.9,"Chars":652,"Bytes":680}
+{"Workload":"document/chat_ru_emoji","Pass":2,"Codec":"UTF-8","Encode":2541.5,"Decode":2451.8,"Chars":652,"Bytes":1161}
+{"Workload":"document/chat_ru_emoji","Pass":2,"Codec":"SCSU","Encode":966,"Decode":1992.9,"Chars":652,"Bytes":691}
+{"Workload":"document/chat_ru_emoji","Pass":2,"Codec":"BOCU-1","Encode":1224,"Decode":1411.5,"Chars":652,"Bytes":753}
+{"Workload":"document/chat_ru_emoji","Pass":2,"Codec":"Zstd 1","Encode":139.4,"Decode":274.9,"Chars":652,"Bytes":675}
+{"Workload":"document/chat_ru_emoji","Pass":2,"Codec":"Brotli 11","Encode":0.6,"Decode":128.7,"Chars":652,"Bytes":540}
+{"Workload":"document/json_catalog","Pass":2,"Codec":"Steno","Encode":1490.2,"Decode":1766.6,"Chars":1326,"Bytes":1399}
+{"Workload":"document/json_catalog","Pass":2,"Codec":"UTF-8","Encode":6386,"Decode":5881.9,"Chars":1326,"Bytes":1648}
+{"Workload":"document/json_catalog","Pass":2,"Codec":"SCSU","Encode":1210.9,"Decode":2049.3,"Chars":1326,"Bytes":1419}
+{"Workload":"document/json_catalog","Pass":2,"Codec":"BOCU-1","Encode":1339.7,"Decode":1486.1,"Chars":1326,"Bytes":1430}
+{"Workload":"document/json_catalog","Pass":2,"Codec":"Zstd 1","Encode":281.5,"Decode":639.5,"Chars":1326,"Bytes":1026}
+{"Workload":"document/json_catalog","Pass":2,"Codec":"Brotli 11","Encode":0.9,"Decode":213.2,"Chars":1326,"Bytes":829}
+{"Workload":"document/tech_ja_en","Pass":2,"Codec":"Steno","Encode":594.6,"Decode":884.2,"Chars":647,"Bytes":767}
+{"Workload":"document/tech_ja_en","Pass":2,"Codec":"UTF-8","Encode":2810.7,"Decode":2663,"Chars":647,"Bytes":1161}
+{"Workload":"document/tech_ja_en","Pass":2,"Codec":"SCSU","Encode":686.3,"Decode":1824.8,"Chars":647,"Bytes":790}
+{"Workload":"document/tech_ja_en","Pass":2,"Codec":"BOCU-1","Encode":710,"Decode":716.6,"Chars":647,"Bytes":876}
+{"Workload":"document/tech_ja_en","Pass":2,"Codec":"Zstd 1","Encode":148.8,"Decode":335.9,"Chars":647,"Bytes":830}
+{"Workload":"document/tech_ja_en","Pass":2,"Codec":"Brotli 11","Encode":0.6,"Decode":121.3,"Chars":647,"Bytes":648}
+{"Workload":"16/English","Pass":2,"Codec":"Steno","Encode":1409.7,"Decode":1525.8,"Chars":10351,"Bytes":10357}
+{"Workload":"16/English","Pass":2,"Codec":"UTF-8","Encode":2319.7,"Decode":2621.6,"Chars":10351,"Bytes":10363}
+{"Workload":"16/English","Pass":2,"Codec":"SCSU","Encode":449,"Decode":443.4,"Chars":10351,"Bytes":10357}
+{"Workload":"16/English","Pass":2,"Codec":"BOCU-1","Encode":403.9,"Decode":405.6,"Chars":10351,"Bytes":10360}
+{"Workload":"16/English","Pass":2,"Codec":"Zstd 1","Encode":113.4,"Decode":491.9,"Chars":10351,"Bytes":16681}
+{"Workload":"16/English","Pass":2,"Codec":"Brotli 11","Encode":0.1,"Decode":36,"Chars":10351,"Bytes":12035}
+{"Workload":"16/French","Pass":2,"Codec":"Steno","Encode":1405.1,"Decode":1540.7,"Chars":11551,"Bytes":11646}
+{"Workload":"16/French","Pass":2,"Codec":"UTF-8","Encode":2036.5,"Decode":1959.5,"Chars":11551,"Bytes":12109}
+{"Workload":"16/French","Pass":2,"Codec":"SCSU","Encode":402.4,"Decode":413.1,"Chars":11551,"Bytes":11646}
+{"Workload":"16/French","Pass":2,"Codec":"BOCU-1","Encode":408,"Decode":416.7,"Chars":11551,"Bytes":12434}
+{"Workload":"16/French","Pass":2,"Codec":"Zstd 1","Encode":111.5,"Decode":485.2,"Chars":11551,"Bytes":19111}
+{"Workload":"16/French","Pass":2,"Codec":"Brotli 11","Encode":0.1,"Decode":66.5,"Chars":11551,"Bytes":15117}
+{"Workload":"16/Polish","Pass":2,"Codec":"Steno","Encode":796.8,"Decode":916.7,"Chars":11320,"Bytes":11663}
+{"Workload":"16/Polish","Pass":2,"Codec":"UTF-8","Encode":1922.6,"Decode":1821,"Chars":11320,"Bytes":11987}
+{"Workload":"16/Polish","Pass":2,"Codec":"SCSU","Encode":368.3,"Decode":412,"Chars":11320,"Bytes":11875}
+{"Workload":"16/Polish","Pass":2,"Codec":"BOCU-1","Encode":413.4,"Decode":414.1,"Chars":11320,"Bytes":12561}
+{"Workload":"16/Polish","Pass":2,"Codec":"Zstd 1","Encode":106.5,"Decode":478.5,"Chars":11320,"Bytes":18809}
+{"Workload":"16/Polish","Pass":2,"Codec":"Brotli 11","Encode":0.1,"Decode":80,"Chars":11320,"Bytes":15019}
+{"Workload":"16/Vietnamese","Pass":2,"Codec":"Steno","Encode":336.8,"Decode":384,"Chars":10646,"Bytes":12988}
+{"Workload":"16/Vietnamese","Pass":2,"Codec":"UTF-8","Encode":1199.5,"Decode":1109.5,"Chars":10646,"Bytes":14690}
+{"Workload":"16/Vietnamese","Pass":2,"Codec":"SCSU","Encode":218.8,"Decode":375.5,"Chars":10646,"Bytes":13242}
+{"Workload":"16/Vietnamese","Pass":2,"Codec":"BOCU-1","Encode":342.5,"Decode":378,"Chars":10646,"Bytes":15332}
+{"Workload":"16/Vietnamese","Pass":2,"Codec":"Zstd 1","Encode":97.9,"Decode":423.2,"Chars":10646,"Bytes":21278}
+{"Workload":"16/Vietnamese","Pass":2,"Codec":"Brotli 11","Encode":0.1,"Decode":75.6,"Chars":10646,"Bytes":17618}
+{"Workload":"16/Russian","Pass":2,"Codec":"Steno","Encode":518.4,"Decode":546.7,"Chars":11573,"Bytes":12344}
+{"Workload":"16/Russian","Pass":2,"Codec":"UTF-8","Encode":1235.8,"Decode":1145,"Chars":11573,"Bytes":21496}
+{"Workload":"16/Russian","Pass":2,"Codec":"SCSU","Encode":290.1,"Decode":379.2,"Chars":11573,"Bytes":12344}
+{"Workload":"16/Russian","Pass":2,"Codec":"BOCU-1","Encode":393.1,"Decode":403.6,"Chars":11573,"Bytes":12716}
+{"Workload":"16/Russian","Pass":2,"Codec":"Zstd 1","Encode":91.8,"Decode":441.2,"Chars":11573,"Bytes":28471}
+{"Workload":"16/Russian","Pass":2,"Codec":"Brotli 11","Encode":0.1,"Decode":28.3,"Chars":11573,"Bytes":23280}
+{"Workload":"16/Greek","Pass":2,"Codec":"Steno","Encode":516.6,"Decode":546,"Chars":12135,"Bytes":12946}
+{"Workload":"16/Greek","Pass":2,"Codec":"UTF-8","Encode":1215.9,"Decode":1138.2,"Chars":12135,"Bytes":22381}
+{"Workload":"16/Greek","Pass":2,"Codec":"SCSU","Encode":262,"Decode":369.7,"Chars":12135,"Bytes":13757}
+{"Workload":"16/Greek","Pass":2,"Codec":"BOCU-1","Encode":385.6,"Decode":386.4,"Chars":12135,"Bytes":13292}
+{"Workload":"16/Greek","Pass":2,"Codec":"Zstd 1","Encode":89.2,"Decode":440.8,"Chars":12135,"Bytes":29752}
+{"Workload":"16/Greek","Pass":2,"Codec":"Brotli 11","Encode":0.1,"Decode":69.1,"Chars":12135,"Bytes":25647}
+{"Workload":"16/Arabic","Pass":2,"Codec":"Steno","Encode":498.5,"Decode":552,"Chars":7398,"Bytes":7907}
+{"Workload":"16/Arabic","Pass":2,"Codec":"UTF-8","Encode":1215.7,"Decode":1115.8,"Chars":7398,"Bytes":13561}
+{"Workload":"16/Arabic","Pass":2,"Codec":"SCSU","Encode":274.8,"Decode":369.8,"Chars":7398,"Bytes":7907}
+{"Workload":"16/Arabic","Pass":2,"Codec":"BOCU-1","Encode":393,"Decode":403.2,"Chars":7398,"Bytes":8018}
+{"Workload":"16/Arabic","Pass":2,"Codec":"Zstd 1","Encode":85.4,"Decode":434.1,"Chars":7398,"Bytes":18192}
+{"Workload":"16/Arabic","Pass":2,"Codec":"Brotli 11","Encode":0.1,"Decode":45,"Chars":7398,"Bytes":15343}
+{"Workload":"16/Urdu","Pass":2,"Codec":"Steno","Encode":251.5,"Decode":323.5,"Chars":9910,"Bytes":13286}
+{"Workload":"16/Urdu","Pass":2,"Codec":"UTF-8","Encode":1236.2,"Decode":1114.5,"Chars":9910,"Bytes":17838}
+{"Workload":"16/Urdu","Pass":2,"Codec":"SCSU","Encode":180.9,"Decode":366.2,"Chars":9910,"Bytes":13546}
+{"Workload":"16/Urdu","Pass":2,"Codec":"BOCU-1","Encode":354.5,"Decode":399.9,"Chars":9910,"Bytes":13455}
+{"Workload":"16/Urdu","Pass":2,"Codec":"Zstd 1","Encode":89.9,"Decode":439.3,"Chars":9910,"Bytes":23931}
+{"Workload":"16/Urdu","Pass":2,"Codec":"Brotli 11","Encode":0.1,"Decode":73.8,"Chars":9910,"Bytes":20542}
+{"Workload":"16/Hindi","Pass":2,"Codec":"Steno","Encode":508.3,"Decode":547.6,"Chars":11155,"Bytes":11910}
+{"Workload":"16/Hindi","Pass":2,"Codec":"UTF-8","Encode":923.3,"Decode":807.9,"Chars":11155,"Bytes":29627}
+{"Workload":"16/Hindi","Pass":2,"Codec":"SCSU","Encode":277.1,"Decode":383.4,"Chars":11155,"Bytes":11910}
+{"Workload":"16/Hindi","Pass":2,"Codec":"BOCU-1","Encode":384.4,"Decode":401.5,"Chars":11155,"Bytes":12127}
+{"Workload":"16/Hindi","Pass":2,"Codec":"Zstd 1","Encode":39.1,"Decode":351.9,"Chars":11155,"Bytes":36110}
+{"Workload":"16/Hindi","Pass":2,"Codec":"Brotli 11","Encode":0.1,"Decode":14,"Chars":11155,"Bytes":26356}
+{"Workload":"16/Thai","Pass":2,"Codec":"Steno","Encode":540.7,"Decode":572,"Chars":9183,"Bytes":9805}
+{"Workload":"16/Thai","Pass":2,"Codec":"UTF-8","Encode":885.2,"Decode":771.6,"Chars":9183,"Bytes":26963}
+{"Workload":"16/Thai","Pass":2,"Codec":"SCSU","Encode":306.7,"Decode":397.5,"Chars":9183,"Bytes":10427}
+{"Workload":"16/Thai","Pass":2,"Codec":"BOCU-1","Encode":420.5,"Decode":427.5,"Chars":9183,"Bytes":9852}
+{"Workload":"16/Thai","Pass":2,"Codec":"Zstd 1","Encode":35.8,"Decode":339.5,"Chars":9183,"Bytes":32359}
+{"Workload":"16/Thai","Pass":2,"Codec":"Brotli 11","Encode":0.1,"Decode":12.7,"Chars":9183,"Bytes":24494}
+{"Workload":"16/Amharic","Pass":2,"Codec":"Steno","Encode":154.3,"Decode":204.5,"Chars":5415,"Bytes":9498}
+{"Workload":"16/Amharic","Pass":2,"Codec":"UTF-8","Encode":752.2,"Decode":727.5,"Chars":5415,"Bytes":16243}
+{"Workload":"16/Amharic","Pass":2,"Codec":"SCSU","Encode":132.7,"Decode":317.3,"Chars":5415,"Bytes":9732}
+{"Workload":"16/Amharic","Pass":2,"Codec":"BOCU-1","Encode":311.9,"Decode":357.4,"Chars":5415,"Bytes":9248}
+{"Workload":"16/Amharic","Pass":2,"Codec":"Zstd 1","Encode":42,"Decode":344.5,"Chars":5415,"Bytes":19633}
+{"Workload":"16/Amharic","Pass":2,"Codec":"Brotli 11","Encode":0.1,"Decode":13.8,"Chars":5415,"Bytes":15125}
+{"Workload":"16/Chinese (Simplified)","Pass":2,"Codec":"Steno","Encode":311.8,"Decode":312.9,"Chars":2897,"Bytes":5819}
+{"Workload":"16/Chinese (Simplified)","Pass":2,"Codec":"UTF-8","Encode":741.4,"Decode":731.4,"Chars":2897,"Bytes":8477}
+{"Workload":"16/Chinese (Simplified)","Pass":2,"Codec":"SCSU","Encode":255.5,"Decode":352.3,"Chars":2897,"Bytes":6046}
+{"Workload":"16/Chinese (Simplified)","Pass":2,"Codec":"BOCU-1","Encode":199.1,"Decode":203.3,"Chars":2897,"Bytes":6287}
+{"Workload":"16/Chinese (Simplified)","Pass":2,"Codec":"Zstd 1","Encode":73.9,"Decode":327.4,"Chars":2897,"Bytes":10580}
+{"Workload":"16/Chinese (Simplified)","Pass":2,"Codec":"Brotli 11","Encode":0.1,"Decode":34.8,"Chars":2897,"Bytes":9214}
+{"Workload":"16/Japanese","Pass":2,"Codec":"Steno","Encode":311.1,"Decode":350.2,"Chars":4092,"Bytes":6483}
+{"Workload":"16/Japanese","Pass":2,"Codec":"UTF-8","Encode":725.4,"Decode":725.9,"Chars":4092,"Bytes":12170}
+{"Workload":"16/Japanese","Pass":2,"Codec":"SCSU","Encode":168.2,"Decode":357.3,"Chars":4092,"Bytes":7628}
+{"Workload":"16/Japanese","Pass":2,"Codec":"BOCU-1","Encode":195.6,"Decode":183.1,"Chars":4092,"Bytes":8737}
+{"Workload":"16/Japanese","Pass":2,"Codec":"Zstd 1","Encode":63.2,"Decode":330.9,"Chars":4092,"Bytes":14919}
+{"Workload":"16/Japanese","Pass":2,"Codec":"Brotli 11","Encode":0.1,"Decode":27.3,"Chars":4092,"Bytes":13155}
+{"Workload":"16/Korean","Pass":2,"Codec":"Steno","Encode":349.5,"Decode":323.2,"Chars":4509,"Bytes":8190}
+{"Workload":"16/Korean","Pass":2,"Codec":"UTF-8","Encode":804.6,"Decode":799.8,"Chars":4509,"Bytes":11198}
+{"Workload":"16/Korean","Pass":2,"Codec":"SCSU","Encode":229.4,"Decode":363.6,"Chars":4509,"Bytes":9257}
+{"Workload":"16/Korean","Pass":2,"Codec":"BOCU-1","Encode":224.1,"Decode":225.8,"Chars":4509,"Bytes":8614}
+{"Workload":"16/Korean","Pass":2,"Codec":"Zstd 1","Encode":81.6,"Decode":360.8,"Chars":4509,"Bytes":14234}
+{"Workload":"16/Korean","Pass":2,"Codec":"Brotli 11","Encode":0.1,"Decode":68.1,"Chars":4509,"Bytes":12550}

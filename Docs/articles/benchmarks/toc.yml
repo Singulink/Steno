@@ -1,0 +1,66 @@
+- name: Results at a Glance
+  href: overview.md
+
+- name: Stored Values
+  href: stored.md
+
+- name: Comparing Without Decoding
+  href: comparing.md
+
+- name: Cost per Value and Speed
+  href: speed.md
+
+- name: Implementations Side by Side
+  href: implementations.md
+
+- name: ASCII Fast Paths
+  href: ascii.md
+
+- name: Full Tables
+  items:
+  - name: Encoded Size
+    href: encoded-size.md
+
+  - name: Size by Language
+    items:
+    - name: UDHR, 4-Char Values
+      href: size-udhr-4-char-values.md
+
+    - name: UDHR, 8-Char Values
+      href: size-udhr-8-char-values.md
+
+    - name: UDHR, 16-Char Values
+      href: size-udhr-16-char-values.md
+
+    - name: UDHR, Paragraphs
+      href: size-udhr-each-paragraph-a-value.md
+
+    - name: UDHR, Documents
+      href: size-udhr-each-document-a-value.md
+
+    - name: Mixed Content, Lines
+      href: size-mixed-content-each-line-a-value.md
+
+    - name: Mixed Content, Documents
+      href: size-mixed-content-each-document-a-value.md
+
+    - name: Names, Places, Titles, UI Strings
+      href: size-names-places-titles-ui-strings.md
+
+    - name: Wikipedia, 4-Char Values
+      href: size-wikipedia-4-char-values.md
+
+    - name: Wikipedia, 8-Char Values
+      href: size-wikipedia-8-char-values.md
+
+    - name: Wikipedia, 16-Char Values
+      href: size-wikipedia-16-char-values.md
+
+    - name: Wikipedia, Paragraphs
+      href: size-wikipedia-each-paragraph-a-value.md
+
+    - name: Wikipedia, Articles
+      href: size-wikipedia-each-article-a-value.md
+
+- name: How the Numbers Were Measured
+  href: machine.md

@@ -1,0 +1,24 @@
+English: Settings · Sign out · Search
+Français : Paramètres · Se déconnecter · Rechercher
+Deutsch: Einstellungen · Abmelden · Suchen
+Español: Configuración · Cerrar sesión · Buscar
+Polski: Ustawienia · Wyloguj się · Szukaj
+Čeština: Nastavení · Odhlásit se · Hledat
+Türkçe: Ayarlar · Oturumu kapat · Ara
+Tiếng Việt: Cài đặt · Đăng xuất · Tìm kiếm
+Русский: Настройки · Выйти · Поиск
+Українська: Налаштування · Вийти · Пошук
+Ελληνικά: Ρυθμίσεις · Αποσύνδεση · Αναζήτηση
+עברית: הגדרות · התנתקות · חיפוש
+العربية: الإعدادات · تسجيل الخروج · بحث
+فارسی: تنظیمات · خروج · جستجو
+हिन्दी: सेटिंग · साइन आउट · खोजें
+বাংলা: সেটিংস · সাইন আউট · অনুসন্ধান
+தமிழ்: அமைப்புகள் · வெளியேறு · தேடு
+ไทย: การตั้งค่า · ออกจากระบบ · ค้นหา
+ქართული: პარამეტრები · გასვლა · ძიება
+Հայերեն: Կարգավորումներ · Դուրս գալ · Որոնել
+中文（简体）：设置 · 退出登录 · 搜索
+中文（繁體）：設定 · 登出 · 搜尋
+日本語：設定 · ログアウト · 検索
+한국어: 설정 · 로그아웃 · 검색
