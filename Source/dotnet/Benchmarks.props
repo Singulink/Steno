@@ -1,0 +1,7 @@
+<Project>
+  <!-- Imported by Directory.Build.props for the benchmark and tool projects. They are applications: no public API to document and nothing to pack. -->
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 658" width="760" height="658" role="img" aria-labelledby="chart-encoded-size-by-length-of-value--wikipedia--56-languages--title chart-encoded-size-by-length-of-value--wikipedia--56-languages--desc" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<title id="chart-encoded-size-by-length-of-value--wikipedia--56-languages--title">Encoded size by length of value (Wikipedia, 56 languages)</title>
+<desc id="chart-encoded-size-by-length-of-value--wikipedia--56-languages--desc">Bar chart of bytes per character for every codec, for values of 4, 8 and 16 characters, paragraphs and whole documents (Wikipedia, 56 languages). The same numbers are in the tables on the Encoded Size page.</desc>
+<style>svg:root{color:#1f2328}@media (prefers-color-scheme: dark){svg:root{color:#e6edf3}}</style>
+<text x="8" y="20" font-size="15" font-weight="600" fill="currentColor">Encoded size by length of value (Wikipedia, 56 languages)</text>
+<text x="8" y="38" font-size="12" fill="currentColor" fill-opacity="0.8">Bytes per character (UTF-16 code units) over all values; smaller is better. Each value encoded or compressed on its own.</text>
+<rect x="8.0" y="52.0" width="14" height="10" rx="2" fill="#f58518"/>
+<text x="27.0" y="61.0" font-size="11" fill="currentColor">Steno</text>
+<rect x="75.0" y="52.0" width="14" height="10" rx="2" fill="#4c78a8"/>
+<text x="94.0" y="61.0" font-size="11" fill="currentColor">UTF-8</text>
+<rect x="142.0" y="52.0" width="14" height="10" rx="2" fill="#9ecae9"/>
+<text x="161.0" y="61.0" font-size="11" fill="currentColor">UTF-16</text>
+<rect x="215.6" y="52.0" width="14" height="10" rx="2" fill="#54a24b"/>
+<text x="234.6" y="61.0" font-size="11" fill="currentColor">SCSU</text>
+<rect x="276.0" y="52.0" width="14" height="10" rx="2" fill="#b279a2"/>
+<text x="295.0" y="61.0" font-size="11" fill="currentColor">BOCU-1</text>
+<rect x="349.6" y="52.0" width="14" height="10" rx="2" fill="#c7c7c7"/>
+<text x="368.6" y="61.0" font-size="11" fill="currentColor">Deflate fast</text>
+<rect x="462.8" y="52.0" width="14" height="10" rx="2" fill="#8c8c8c"/>
+<text x="481.8" y="61.0" font-size="11" fill="currentColor">Deflate max</text>
+<rect x="569.4" y="52.0" width="14" height="10" rx="2" fill="#ff9d98"/>
+<text x="588.4" y="61.0" font-size="11" fill="currentColor">Brotli 1</text>
+<rect x="656.2" y="52.0" width="14" height="10" rx="2" fill="#e45756"/>
+<text x="675.2" y="61.0" font-size="11" fill="currentColor">Brotli 11</text>
+<rect x="8.0" y="70.0" width="14" height="10" rx="2" fill="#9ad0c9"/>
+<text x="27.0" y="79.0" font-size="11" fill="currentColor">LZ4 fast</text>
+<rect x="94.8" y="70.0" width="14" height="10" rx="2" fill="#439894"/>
+<text x="113.8" y="79.0" font-size="11" fill="currentColor">LZ4 max</text>
+<rect x="175.0" y="70.0" width="14" height="10" rx="2" fill="#f2cf5b"/>
+<text x="194.0" y="79.0" font-size="11" fill="currentColor">Zstd 1</text>
+<rect x="248.6" y="70.0" width="14" height="10" rx="2" fill="#b8860b"/>
+<text x="267.6" y="79.0" font-size="11" fill="currentColor">Zstd 19</text>
+<line x1="170.0" y1="94.0" x2="170.0" y2="600.0" stroke="currentColor" stroke-opacity="0.15"/>
+<text x="170.0" y="614.0" font-size="10" fill="currentColor" text-anchor="middle" fill-opacity="0.8">0.00</text>
+<line x1="276.8" y1="94.0" x2="276.8" y2="600.0" stroke="currentColor" stroke-opacity="0.15"/>
+<text x="276.8" y="614.0" font-size="10" fill="currentColor" text-anchor="middle" fill-opacity="0.8">1.00</text>
+<line x1="383.6" y1="94.0" x2="383.6" y2="600.0" stroke="currentColor" stroke-opacity="0.15"/>
+<text x="383.6" y="614.0" font-size="10" fill="currentColor" text-anchor="middle" fill-opacity="0.8">2.00</text>
+<line x1="490.4" y1="94.0" x2="490.4" y2="600.0" stroke="currentColor" stroke-opacity="0.15"/>
+<text x="490.4" y="614.0" font-size="10" fill="currentColor" text-anchor="middle" fill-opacity="0.8">3.00</text>
+<line x1="597.2" y1="94.0" x2="597.2" y2="600.0" stroke="currentColor" stroke-opacity="0.15"/>
+<text x="597.2" y="614.0" font-size="10" fill="currentColor" text-anchor="middle" fill-opacity="0.8">4.00</text>
+<line x1="704.0" y1="94.0" x2="704.0" y2="600.0" stroke="currentColor" stroke-opacity="0.15"/>
+<text x="704.0" y="614.0" font-size="10" fill="currentColor" text-anchor="middle" fill-opacity="0.8">5.00</text>
+<text x="162.0" y="149.5" font-size="11" fill="currentColor" text-anchor="end">4 chars</text>
+<rect x="170" y="100.0" width="126.1" height="6.0" fill="#f58518"><title>4 chars, Steno: 1.18</title></rect>
+<text x="299.1" y="105.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.18</text>
+<rect x="170" y="107.0" width="174.2" height="6.0" fill="#4c78a8"><title>4 chars, UTF-8: 1.63</title></rect>
+<text x="347.2" y="112.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.63</text>
+<rect x="170" y="114.0" width="213.6" height="6.0" fill="#9ecae9"><title>4 chars, UTF-16: 2.00</title></rect>
+<text x="386.6" y="119.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">2.00</text>
+<rect x="170" y="121.0" width="132.5" height="6.0" fill="#54a24b"><title>4 chars, SCSU: 1.24</title></rect>
+<text x="305.5" y="126.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.24</text>
+<rect x="170" y="128.0" width="130.9" height="6.0" fill="#b279a2"><title>4 chars, BOCU-1: 1.23</title></rect>
+<text x="303.9" y="133.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.23</text>
+<rect x="170" y="135.0" width="238.3" height="6.0" fill="#c7c7c7"><title>4 chars, Deflate fast: 2.23</title></rect>
+<text x="411.3" y="140.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">2.23</text>
+<rect x="170" y="142.0" width="238.4" height="6.0" fill="#8c8c8c"><title>4 chars, Deflate max: 2.23</title></rect>
+<text x="411.4" y="147.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">2.23</text>
+<rect x="170" y="149.0" width="289.8" height="6.0" fill="#ff9d98"><title>4 chars, Brotli 1: 2.71</title></rect>
+<text x="462.8" y="154.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">2.71</text>
+<rect x="170" y="156.0" width="289.4" height="6.0" fill="#e45756"><title>4 chars, Brotli 11: 2.71</title></rect>
+<text x="462.4" y="161.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">2.71</text>
+<rect x="170" y="163.0" width="203.1" height="6.0" fill="#9ad0c9"><title>4 chars, LZ4 fast: 1.90</title></rect>
+<text x="376.1" y="168.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.90</text>
+<rect x="170" y="170.0" width="203.1" height="6.0" fill="#439894"><title>4 chars, LZ4 max: 1.90</title></rect>
+<text x="376.1" y="175.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.90</text>
+<rect x="170" y="177.0" width="434.3" height="6.0" fill="#f2cf5b"><title>4 chars, Zstd 1: 4.07</title></rect>
+<text x="607.3" y="182.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">4.07</text>
+<rect x="170" y="184.0" width="434.3" height="6.0" fill="#b8860b"><title>4 chars, Zstd 19: 4.07</title></rect>
+<text x="607.3" y="189.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">4.07</text>
+<text x="162.0" y="249.5" font-size="11" fill="currentColor" text-anchor="end">8 chars</text>
+<rect x="170" y="200.0" width="118.7" height="6.0" fill="#f58518"><title>8 chars, Steno: 1.11</title></rect>
+<text x="291.7" y="205.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.11</text>
+<rect x="170" y="207.0" width="171.7" height="6.0" fill="#4c78a8"><title>8 chars, UTF-8: 1.61</title></rect>
+<text x="344.7" y="212.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.61</text>
+<rect x="170" y="214.0" width="213.6" height="6.0" fill="#9ecae9"><title>8 chars, UTF-16: 2.00</title></rect>
+<text x="386.6" y="219.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">2.00</text>
+<rect x="170" y="221.0" width="122.8" height="6.0" fill="#54a24b"><title>8 chars, SCSU: 1.15</title></rect>
+<text x="295.8" y="226.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.15</text>
+<rect x="170" y="228.0" width="124.9" height="6.0" fill="#b279a2"><title>8 chars, BOCU-1: 1.17</title></rect>
+<text x="297.9" y="233.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.17</text>
+<rect x="170" y="235.0" width="205.3" height="6.0" fill="#c7c7c7"><title>8 chars, Deflate fast: 1.92</title></rect>
+<text x="378.3" y="240.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.92</text>
+<rect x="170" y="242.0" width="205.8" height="6.0" fill="#8c8c8c"><title>8 chars, Deflate max: 1.93</title></rect>
+<text x="378.8" y="247.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.93</text>
+<rect x="170" y="249.0" width="228.0" height="6.0" fill="#ff9d98"><title>8 chars, Brotli 1: 2.13</title></rect>
+<text x="401.0" y="254.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">2.13</text>
+<rect x="170" y="256.0" width="226.7" height="6.0" fill="#e45756"><title>8 chars, Brotli 11: 2.12</title></rect>
+<text x="399.7" y="261.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">2.12</text>
+<rect x="170" y="263.0" width="189.5" height="6.0" fill="#9ad0c9"><title>8 chars, LZ4 fast: 1.77</title></rect>
+<text x="362.5" y="268.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.77</text>
+<rect x="170" y="270.0" width="189.5" height="6.0" fill="#439894"><title>8 chars, LZ4 max: 1.77</title></rect>
+<text x="362.5" y="275.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.77</text>
+<rect x="170" y="277.0" width="298.2" height="6.0" fill="#f2cf5b"><title>8 chars, Zstd 1: 2.79</title></rect>
+<text x="471.2" y="282.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">2.79</text>
+<rect x="170" y="284.0" width="298.2" height="6.0" fill="#b8860b"><title>8 chars, Zstd 19: 2.79</title></rect>
+<text x="471.2" y="289.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">2.79</text>
+<text x="162.0" y="349.5" font-size="11" fill="currentColor" text-anchor="end">16 chars</text>
+<rect x="170" y="300.0" width="115.0" height="6.0" fill="#f58518"><title>16 chars, Steno: 1.08</title></rect>
+<text x="288.0" y="305.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.08</text>
+<rect x="170" y="307.0" width="170.6" height="6.0" fill="#4c78a8"><title>16 chars, UTF-8: 1.60</title></rect>
+<text x="343.6" y="312.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.60</text>
+<rect x="170" y="314.0" width="213.6" height="6.0" fill="#9ecae9"><title>16 chars, UTF-16: 2.00</title></rect>
+<text x="386.6" y="319.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">2.00</text>
+<rect x="170" y="321.0" width="117.8" height="6.0" fill="#54a24b"><title>16 chars, SCSU: 1.10</title></rect>
+<text x="290.8" y="326.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.10</text>
+<rect x="170" y="328.0" width="122.1" height="6.0" fill="#b279a2"><title>16 chars, BOCU-1: 1.14</title></rect>
+<text x="295.1" y="333.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.14</text>
+<rect x="170" y="335.0" width="185.9" height="6.0" fill="#c7c7c7"><title>16 chars, Deflate fast: 1.74</title></rect>
+<text x="358.9" y="340.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.74</text>
+<rect x="170" y="342.0" width="181.8" height="6.0" fill="#8c8c8c"><title>16 chars, Deflate max: 1.70</title></rect>
+<text x="354.8" y="347.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.70</text>
+<rect x="170" y="349.0" width="198.7" height="6.0" fill="#ff9d98"><title>16 chars, Brotli 1: 1.86</title></rect>
+<text x="371.7" y="354.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.86</text>
+<rect x="170" y="356.0" width="191.8" height="6.0" fill="#e45756"><title>16 chars, Brotli 11: 1.80</title></rect>
+<text x="364.8" y="361.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.80</text>
+<rect x="170" y="363.0" width="181.3" height="6.0" fill="#9ad0c9"><title>16 chars, LZ4 fast: 1.70</title></rect>
+<text x="354.3" y="368.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.70</text>
+<rect x="170" y="370.0" width="181.2" height="6.0" fill="#439894"><title>16 chars, LZ4 max: 1.70</title></rect>
+<text x="354.2" y="375.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.70</text>
+<rect x="170" y="377.0" width="233.5" height="6.0" fill="#f2cf5b"><title>16 chars, Zstd 1: 2.19</title></rect>
+<text x="406.5" y="382.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">2.19</text>
+<rect x="170" y="384.0" width="228.9" height="6.0" fill="#b8860b"><title>16 chars, Zstd 19: 2.14</title></rect>
+<text x="401.9" y="389.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">2.14</text>
+<text x="162.0" y="449.5" font-size="11" fill="currentColor" text-anchor="end">Paragraphs</text>
+<rect x="170" y="400.0" width="111.4" height="6.0" fill="#f58518"><title>Paragraphs, Steno: 1.04</title></rect>
+<text x="284.4" y="405.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.04</text>
+<rect x="170" y="407.0" width="169.5" height="6.0" fill="#4c78a8"><title>Paragraphs, UTF-8: 1.59</title></rect>
+<text x="342.5" y="412.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.59</text>
+<rect x="170" y="414.0" width="213.6" height="6.0" fill="#9ecae9"><title>Paragraphs, UTF-16: 2.00</title></rect>
+<text x="386.6" y="419.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">2.00</text>
+<rect x="170" y="421.0" width="112.6" height="6.0" fill="#54a24b"><title>Paragraphs, SCSU: 1.05</title></rect>
+<text x="285.6" y="426.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.05</text>
+<rect x="170" y="428.0" width="119.5" height="6.0" fill="#b279a2"><title>Paragraphs, BOCU-1: 1.12</title></rect>
+<text x="292.5" y="433.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.12</text>
+<rect x="170" y="435.0" width="120.2" height="6.0" fill="#c7c7c7"><title>Paragraphs, Deflate fast: 1.13</title></rect>
+<text x="293.2" y="440.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.13</text>
+<rect x="170" y="442.0" width="88.5" height="6.0" fill="#8c8c8c"><title>Paragraphs, Deflate max: 0.83</title></rect>
+<text x="261.5" y="447.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">0.83</text>
+<rect x="170" y="449.0" width="102.0" height="6.0" fill="#ff9d98"><title>Paragraphs, Brotli 1: 0.96</title></rect>
+<text x="275.0" y="454.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">0.96</text>
+<rect x="170" y="456.0" width="82.8" height="6.0" fill="#e45756"><title>Paragraphs, Brotli 11: 0.77</title></rect>
+<text x="255.8" y="461.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">0.77</text>
+<rect x="170" y="463.0" width="127.5" height="6.0" fill="#9ad0c9"><title>Paragraphs, LZ4 fast: 1.19</title></rect>
+<text x="300.5" y="468.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.19</text>
+<rect x="170" y="470.0" width="120.1" height="6.0" fill="#439894"><title>Paragraphs, LZ4 max: 1.12</title></rect>
+<text x="293.1" y="475.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.12</text>
+<rect x="170" y="477.0" width="98.4" height="6.0" fill="#f2cf5b"><title>Paragraphs, Zstd 1: 0.92</title></rect>
+<text x="271.4" y="482.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">0.92</text>
+<rect x="170" y="484.0" width="93.7" height="6.0" fill="#b8860b"><title>Paragraphs, Zstd 19: 0.88</title></rect>
+<text x="266.7" y="489.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">0.88</text>
+<text x="162.0" y="549.5" font-size="11" fill="currentColor" text-anchor="end">Articles</text>
+<rect x="170" y="500.0" width="111.1" height="6.0" fill="#f58518"><title>Articles, Steno: 1.04</title></rect>
+<text x="284.1" y="505.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.04</text>
+<rect x="170" y="507.0" width="169.2" height="6.0" fill="#4c78a8"><title>Articles, UTF-8: 1.58</title></rect>
+<text x="342.2" y="512.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.58</text>
+<rect x="170" y="514.0" width="213.6" height="6.0" fill="#9ecae9"><title>Articles, UTF-16: 2.00</title></rect>
+<text x="386.6" y="519.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">2.00</text>
+<rect x="170" y="521.0" width="112.2" height="6.0" fill="#54a24b"><title>Articles, SCSU: 1.05</title></rect>
+<text x="285.2" y="526.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.05</text>
+<rect x="170" y="528.0" width="119.4" height="6.0" fill="#b279a2"><title>Articles, BOCU-1: 1.12</title></rect>
+<text x="292.4" y="533.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">1.12</text>
+<rect x="170" y="535.0" width="85.3" height="6.0" fill="#c7c7c7"><title>Articles, Deflate fast: 0.80</title></rect>
+<text x="258.3" y="540.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">0.80</text>
+<rect x="170" y="542.0" width="52.7" height="6.0" fill="#8c8c8c"><title>Articles, Deflate max: 0.49</title></rect>
+<text x="225.7" y="547.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">0.49</text>
+<rect x="170" y="549.0" width="63.9" height="6.0" fill="#ff9d98"><title>Articles, Brotli 1: 0.60</title></rect>
+<text x="236.9" y="554.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">0.60</text>
+<rect x="170" y="556.0" width="47.0" height="6.0" fill="#e45756"><title>Articles, Brotli 11: 0.44</title></rect>
+<text x="220.0" y="561.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">0.44</text>
+<rect x="170" y="563.0" width="91.7" height="6.0" fill="#9ad0c9"><title>Articles, LZ4 fast: 0.86</title></rect>
+<text x="264.7" y="568.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">0.86</text>
+<rect x="170" y="570.0" width="66.8" height="6.0" fill="#439894"><title>Articles, LZ4 max: 0.63</title></rect>
+<text x="239.8" y="575.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">0.63</text>
+<rect x="170" y="577.0" width="60.4" height="6.0" fill="#f2cf5b"><title>Articles, Zstd 1: 0.57</title></rect>
+<text x="233.4" y="582.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">0.57</text>
+<rect x="170" y="584.0" width="49.9" height="6.0" fill="#b8860b"><title>Articles, Zstd 19: 0.47</title></rect>
+<text x="222.9" y="589.8" font-size="7.5" fill="currentColor" fill-opacity="0.85">0.47</text>
+<line x1="170.0" y1="94.0" x2="170.0" y2="600.0" stroke="currentColor" stroke-opacity="0.5"/>
+<text x="8.0" y="632.0" font-size="10.5" fill="currentColor" fill-opacity="0.8">The compressors are UTF-8 followed by the compressor, on each value by itself.</text>
+</svg>

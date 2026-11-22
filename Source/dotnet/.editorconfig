@@ -1,0 +1,12 @@
+# Editor config overrides for the test, benchmark and tool projects (applications, not libraries). The library keeps the rules of the root file.
+
+
+########### C# files ###########
+[{Singulink.Steno.Tests,Singulink.Steno.Benchmarks,Singulink.Steno.Benchmarks.Speed,Singulink.Steno.Benchmarks.Tests}/**.cs]
+
+#### Analyzer diagnostics ####
+
+stylecop.documentation.documentExposedElements = false
+
+# CA2007: Consider calling ConfigureAwait on the awaited task
+dotnet_diagnostic.CA2007.severity = none

@@ -1,0 +1,46 @@
+[workspace]
+members = [".", "capi", "bench"]
+# The benchmark crate builds Criterion; it is left out of plain `cargo build` and `cargo test`.
+default-members = [".", "capi"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.87"
+license = "MIT"
+repository = "https://github.com/Singulink/Steno"
+authors = ["Singulink"]
+
+[package]
+name = "singulink-steno"
+description = "The Rust reference implementation of the Steno Encoding, a compact encoding of Unicode text whose bytes sort like the text."
+readme = "README.md"
+keywords = ["encoding", "unicode", "text", "compression", "sortable"]
+categories = ["encoding", "text-processing", "no-std"]
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+exclude = ["/bench", "/capi", "/target"]
+
+[lib]
+name = "singulink_steno"
+
+[features]
+default = ["std", "simd"]
+# Keeps a cache of layouts per thread. Without it, the crate is `no_std` with `alloc`, and each call builds the layouts it needs.
+std = []
+# Vector code (SSSE3 on x86_64, detected at run time with `std`; NEON on aarch64). Without it, the crate forbids unsafe code.
+simd = []
+
+[profile.release]
+codegen-units = 1
+lto = true
+
+[profile.bench]
+codegen-units = 1
+lto = true
+

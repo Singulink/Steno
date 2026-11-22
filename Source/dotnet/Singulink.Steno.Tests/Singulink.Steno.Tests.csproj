@@ -1,0 +1,16 @@
+﻿<Project Sdk="MSTest.Sdk/4.5.1">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Singulink.Steno\Singulink.Steno.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\TestVectors\steno-v1-vectors.txt" Link="TestVectors\steno-v1-vectors.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\Singulink.Steno.Benchmarks\Corpus\**\*.txt" Link="Corpus\%(RecursiveDir)%(Filename)%(Extension)"
+          CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

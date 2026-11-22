@@ -1,0 +1,4 @@
+implementation,text,kind,operation,form,codec,reason
+# Rows of the speed results to leave out of the pages, with the reason; the method page lists each. Empty or * matches anything.
+# For the ASCII fast paths of .NET, use the operation ascii and the start of the operation name as the codec.
+dotnet,*,*,ascii,*,Ascii.IsValid,"The figure for .NET's Ascii.IsValid looked implausible next to the copy of the same bytes in the earlier measurement; to be checked against the new one"

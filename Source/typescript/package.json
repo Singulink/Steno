@@ -1,0 +1,57 @@
+{
+  "name": "@singulink/steno",
+  "version": "0.1.0",
+  "description": "The TypeScript reference implementation of the Steno Encoding, a compact encoding of Unicode text whose bytes sort like the text.",
+  "keywords": [
+    "steno",
+    "encoding",
+    "unicode",
+    "text",
+    "compression",
+    "sortable",
+    "order-preserving",
+    "key-value",
+    "database"
+  ],
+  "homepage": "https://github.com/Singulink/Steno/tree/main/Source/typescript#readme",
+  "bugs": "https://github.com/Singulink/Steno/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Singulink/Steno.git",
+    "directory": "Source/typescript"
+  },
+  "license": "MIT",
+  "author": "Singulink",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/clean.mjs dist && tsc -p tsconfig.json",
+    "test": "npm run build && node scripts/clean.mjs build-test && tsc -p tsconfig.test.json && node scripts/run-tests.mjs",
+    "test:types": "npm run build && node scripts/type-examples.mjs && tsc -p test-types/tsconfig.dom.json && tsc -p test-types/tsconfig.node.json",
+    "bench": "npm run build && node --expose-gc --max-old-space-size=512 bench/run.mjs && node bench/report.mjs --readme",
+    "bench:smoke": "npm run build && node --expose-gc --max-old-space-size=512 bench/run.mjs --smoke && node bench/report.mjs --smoke",
+    "bench:report": "node bench/report.mjs --readme",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "lz4-napi": "^2.10.0",
+    "mitata": "^1.0.34",
+    "typescript": "^7.0.2"
+  }
+}
