@@ -1,0 +1,62 @@
+[
+  {
+    "Kind": "neighbours in sorted order (long common prefixes)",
+    "Operation": "Steno bytes, compared as they are (SequenceCompareTo)",
+    "Nanoseconds": 6.15,
+    "Pairs": 30593
+  },
+  {
+    "Kind": "neighbours in sorted order (long common prefixes)",
+    "Operation": "Steno bytes, both decoded, then CompareCodePoints",
+    "Nanoseconds": 64.66,
+    "Pairs": 30593
+  },
+  {
+    "Kind": "neighbours in sorted order (long common prefixes)",
+    "Operation": "Strings in memory, CompareCodePoints",
+    "Nanoseconds": 8.3,
+    "Pairs": 30593
+  },
+  {
+    "Kind": "neighbours in sorted order (long common prefixes)",
+    "Operation": "Strings in memory, string.CompareOrdinal (another order)",
+    "Nanoseconds": 11.82,
+    "Pairs": 30593
+  },
+  {
+    "Kind": "neighbours in sorted order (long common prefixes)",
+    "Operation": "UTF-8 bytes, compared as they are (SequenceCompareTo)",
+    "Nanoseconds": 4.39,
+    "Pairs": 30593
+  },
+  {
+    "Kind": "random pairs",
+    "Operation": "Steno bytes, compared as they are (SequenceCompareTo)",
+    "Nanoseconds": 11.54,
+    "Pairs": 30594
+  },
+  {
+    "Kind": "random pairs",
+    "Operation": "Steno bytes, both decoded, then CompareCodePoints",
+    "Nanoseconds": 104.83,
+    "Pairs": 30594
+  },
+  {
+    "Kind": "random pairs",
+    "Operation": "Strings in memory, CompareCodePoints",
+    "Nanoseconds": 9.58,
+    "Pairs": 30594
+  },
+  {
+    "Kind": "random pairs",
+    "Operation": "Strings in memory, string.CompareOrdinal (another order)",
+    "Nanoseconds": 4.23,
+    "Pairs": 30594
+  },
+  {
+    "Kind": "random pairs",
+    "Operation": "UTF-8 bytes, compared as they are (SequenceCompareTo)",
+    "Nanoseconds": 10.44,
+    "Pairs": 30594
+  }
+]

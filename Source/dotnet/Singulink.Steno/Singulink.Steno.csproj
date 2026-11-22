@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PackageTags>Unicode, Encoding, Text, String, UTF-8, Compact, Sortable, Order-preserving, Key, Index, Database, SCSU, BOCU</PackageTags>
+    <Description>The .NET reference implementation of the Steno Encoding (a System.Text.Encoding), a compact Unicode text encoding whose bytes sort in code point order, so encoded keys compare, sort and prefix-match without decoding. Greek, Cyrillic, Hebrew, Arabic and similar alphabets take about 1 byte per character, Chinese, Japanese and Korean about 2. No header and no zero byte.</Description>
+  </PropertyGroup>
+</Project>

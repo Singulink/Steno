@@ -1,0 +1,10 @@
+{
+  "Date": "2026-11-21",
+  "Cpu": "AMD Ryzen 7 9700X 8-Core Processor",
+  "LogicalProcessors": 16,
+  "Os": "Microsoft Windows 10.0.26200",
+  "Runtime": ".NET 10.0.14 (X64)",
+  "Icu": "ICU4C 72.1 (icu.dll of Windows)",
+  "Intrinsics": "AVX2 True, AVX-512 True, SSSE3 True",
+  "Commit": "b70511b"
+}

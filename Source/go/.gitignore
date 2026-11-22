@@ -1,0 +1,4 @@
+# Test binaries, profiles and coverage output
+*.test
+*.out
+*.prof

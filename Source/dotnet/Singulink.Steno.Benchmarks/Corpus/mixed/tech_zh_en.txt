@@ -1,0 +1,8 @@
+在项目目录中运行 dotnet add package Singulink.Steno 即可安装该库。
+安装完成后，可以在 Singulink.Steno 命名空间中使用 StenoEncoding 类。
+GetBytes(string) 方法返回 byte[] 数组，GetString(byte[]) 方法则执行相反的转换。
+如果你使用的是 ASP.NET Core，请在 Program.cs 中通过 builder.Services.AddSingleton<ITextCodec, StenoCodec>() 注册服务。
+注意：2.0 版本修改了配置格式，参数 "maxLength" 现已更名为 "MaxByteCount"。
+出现 ArgumentException: Output buffer is too small 错误，说明缓冲区小于 GetMaxByteCount(text.Length) 的返回值。
+更多信息请参阅 GitHub 上的文档：https://github.com/example/repo/blob/main/README.md（“快速入门”一节）。
+从源代码构建需要 .NET SDK 9.0 或更高版本，以及 Git 2.40+。

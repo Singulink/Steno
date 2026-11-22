@@ -1,0 +1,15 @@
+<Project>
+  <!-- Imported by Directory.Build.props for every test project. -->
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);CS1591;CA1707;CA1861</NoWarn>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Shouldly" />
+    <PackageReference Include="PrefixClassName.MsTest" />
+
+    <PackageReference Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" PrivateAssets="All" />
+    <AdditionalFiles Include="$(MSBuildThisFileDirectory)BannedSymbols.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+<Project Sdk="MSTest.Sdk/4.5.3">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Singulink.Steno.Benchmarks\Singulink.Steno.Benchmarks.csproj" />
+  </ItemGroup>
+</Project>

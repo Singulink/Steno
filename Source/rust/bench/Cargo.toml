@@ -1,0 +1,37 @@
+[package]
+name = "singulink-steno-bench"
+description = "Speed benchmarks of the Rust reference implementation of the Steno Encoding."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+publish = false
+build = "build.rs"
+
+[build-dependencies]
+# Compiles the plain C implementation (`Source/c/steno.c`) for the native comparison.
+cc = "1.2"
+
+[dev-dependencies]
+singulink-steno = { path = ".." }
+criterion = { version = "0.8.2", default-features = false, features = ["cargo_bench_support"] }
+# The compressors of the native comparison, through the C reference libraries.
+zstd = "0.14"
+brotlic = "0.8"
+lz4 = "1.28"
+flate2 = { version = "1.1", default-features = false, features = ["zlib"] }
+
+[[bench]]
+name = "codec"
+harness = false
+
+[[bench]]
+name = "native"
+harness = false
+
+# The report lives in `src/report.rs`, not in `src/bin/`, which the repository's `.gitignore` leaves out.
+[[bin]]
+name = "report"
+path = "src/report.rs"

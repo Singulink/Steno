@@ -1,0 +1,40 @@
+<Project>
+  <!-- Imported by Directory.Build.props for the library, which is the project that becomes the NuGet package. -->
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)key.snk</AssemblyOriginatorKeyFile>
+
+    <Authors>Singulink</Authors>
+    <Copyright>© Singulink. All rights reserved.</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package">
+    <PackageId>$(MSBuildProjectName)</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/Singulink/Steno</PackageProjectUrl>
+    <PackageIcon>Singulink Icon 128x128.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Label="AOT Compatibility" Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net6.0'))">
+    <IsAotCompatible>true</IsAotCompatible>
+  </PropertyGroup>
+
+  <!-- Release builds have deterministic source paths, the repository URL in the package metadata and a .symbols.nupkg, which is the package to publish. -->
+  <PropertyGroup Label="Source Link" Condition="'$(Configuration)' == 'Release'">
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)key.snk" Link="key.snk" />
+    <None Include="$(MSBuildThisFileDirectory)README.md" Link="README.md" Pack="true" PackagePath="\" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\Resources\Singulink Icon 128x128.png" Pack="true" PackagePath="\" Visible="false" />
+  </ItemGroup>
+</Project>

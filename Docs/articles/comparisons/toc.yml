@@ -1,0 +1,17 @@
+- name: Trade-offs at a Glance
+  href: trade-offs.md
+
+- name: Steno or UTF-8?
+  href: utf-8.md
+
+- name: Steno or UTF-16?
+  href: utf-16.md
+
+- name: Steno or SCSU?
+  href: scsu.md
+
+- name: Steno or BOCU-1?
+  href: bocu-1.md
+
+- name: Steno and General Compressors
+  href: compressors.md
