@@ -49,7 +49,7 @@
     "prepack": "npm run build"
   },
   "devDependencies": {
-    "@types/node": "^22.20.5",
+    "@types/node": "^26.6.6",
     "lz4-napi": "^2.10.0",
     "mitata": "^1.0.34",
     "typescript": "^7.0.2"
